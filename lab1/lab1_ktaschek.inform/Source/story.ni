@@ -3,7 +3,6 @@
 [ TODO ]
 [
 - hunter interactions 
-  - fight
   - talk
 - doctor interactions
 - room descriptions
@@ -75,6 +74,9 @@ Every turn when the hunter is in the location of the player:
 	else if the last_location is not the location:
 		now the last_location is the location of the player.
 		
+[ Corpse of the Hunter ]
+The corpse of the hunter is a thing. The corpse of the hunter can be alive or dead. The corpse of the hunter is dead. The corpse of the hunter is nowhere.	
+	
 [Doctor]
 The doctor is a person in Room5.
 	
@@ -88,7 +90,7 @@ Every turn when the player is light_headed:
 		now the player is sober;
 	otherwise:
 		say "You try to get up, but your legs betray you. In an instant you collapse back onto the floor—the impact jostles your head. The world seems to shift, as if seen through unfamiliar eyes.";
-		decrease the sanity level of the player by 1;
+		adjust sanity by -1;
 		now the player is sober;
 
 To adjust sanity by (N - a number):
@@ -237,6 +239,18 @@ Understand "attack [someone] with [something]" as attacking with weapon.
 Understand "stab [someone] with [something]" as attacking with weapon.
 Understand "hit [someone] with [something]" as attacking with weapon.
 Understand "cut [someone] with [something]" as attacking with weapon.
+
+Instead of attacking the hunter:
+	say "You engage the hunter with a desperate charge. In a panic, he fumbles his aim and misses a crucial shot. He swings his shotgun, hitting you in the head. Amidst the chaos, you kill the hunter.";
+	remove the hunter from play;
+	now the corpse of the hunter is in the location;
+
+Instead of attacking the doctor:
+	say "You lunge at the doctor with fierce determination, but suddenly feel a firm grip from behind. Before you can recover, you are pinned against the table by the doctor, your attack thwarted.";
+
+Instead of attacking yourself:
+	adjust sanity by -1;
+	say "In an act of self-directed violence, you turn your fury inward. Blood flows as your insanity level drops by one."
 
 [ Wires ]
 Connecting is an action applying to one thing.  
