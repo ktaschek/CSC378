@@ -1,5 +1,24 @@
 "lab1" by ktaschek
 
+[ TODO ]
+[
+- hunter interactions 
+  - fight
+  - talk
+- doctor interactions
+- room descriptions
+- make item use more interactive
+
+- sanity interactions
+ - knife on the ground -> can attack self or hunter
+ - talk to hunter
+
+ - talk to doctor / voice
+
+- tutorial of sanity
+ - talk to voice and you regain it
+]
+
 [ Rooms ]
 
 The room1 is a room.
@@ -12,8 +31,12 @@ The  room2 is north of the  room1.
 The  room3 is east of the  room2.
 The  room4 is north of the  room3.
 
+The Iron Door is a door. The Iron Door is east of the room1. The Iron Door is closed.
+A door can be boarded or unboarded. A door is usually unboarded.
+
 The lockedDoor is a door. The lockedDoor is  east of the Room3 and west of the Room5. 
 The lockedDoor is closed. The lockedDoor is locked.
+
 
 [ Characters ]
 
@@ -58,6 +81,15 @@ The doctor is a person in Room5.
 [ Properties and variables]
 
 The player has a number called sanity level. The sanity level of the player is 2.
+A person can be light_headed or sober. The player is light_headed.
+
+Every turn when the player is light_headed:
+	if the current action is looking or the current action is waiting:
+		now the player is sober;
+	otherwise:
+		say "You try to get up, but your legs betray you. In an instant you collapse back onto the floor—the impact jostles your head. The world seems to shift, as if seen through unfamiliar eyes.";
+		decrease the sanity level of the player by 1;
+		now the player is sober;
 
 To adjust sanity by (N - a number):
 	now Sanity level of the player is Sanity level of the player + N;
@@ -65,11 +97,7 @@ To adjust sanity by (N - a number):
 		now Sanity level of the player is 0;
 	if Sanity level of the player > 2:
 		now Sanity level of the player is 2.
-
-
-[ Dynamic Room Descriptions ]
-
-
+		
 [ Setup for Reentry Sanity Checks ]
 
 A room has a number called last sanity value.
@@ -86,6 +114,39 @@ Report going to a room (called current room):
 A room has a text called sanity-0 description.
 A room has a text called sanity-1 description.
 A room has a text called sanity-2 description.
+
+[ Dynamic Room Descriptions ]
+
+To say my sanity description of (R - a room):
+	if the sanity level of the player is 0:
+		say the sanity-0 description of R;
+	else if the sanity level of the player is 1:
+		say the sanity-1 description of R;
+	else:
+		say the sanity-2 description of R.
+
+After printing the name of a room (called R) while looking:
+	say "[line break][line break][roman type][my sanity description of R]";
+
+The sanity-0 description of Room1 is "You are in a bleak, colorless void where nothing feels real.".
+The sanity-1 description of Room1 is "The room appears distorted and hazy, as though viewed through a fog of uncertainty.".
+The sanity-2 description of Room1 is "Everything seems normal, and the room is as you would expect it to be.".
+
+The sanity-0 description of Room2 is "You are in a bleak, colorless void where nothing feels real.".
+The sanity-1 description of Room2 is "The room appears distorted and hazy, as though viewed through a fog of uncertainty.".
+The sanity-2 description of Room2 is "Everything seems normal, and the room is as you would expect it to be.".
+
+The sanity-0 description of Room3 is "You are in a bleak, colorless void where nothing feels real.".
+The sanity-1 description of Room3 is "The room appears distorted and hazy, as though viewed through a fog of uncertainty.".
+The sanity-2 description of Room3 is "Everything seems normal, and the room is as you would expect it to be.".
+
+The sanity-0 description of Room4 is "You are in a bleak, colorless void where nothing feels real.".
+The sanity-1 description of Room4 is "The room appears distorted and hazy, as though viewed through a fog of uncertainty.".
+The sanity-2 description of Room4 is "Everything seems normal, and the room is as you would expect it to be.".
+
+The sanity-0 description of Room5 is "You are in a bleak, colorless void where nothing feels real.".
+The sanity-1 description of Room5 is "The room appears distorted and hazy, as though viewed through a fog of uncertainty.".
+The sanity-2 description of Room5 is "Everything seems normal, and the room is as you would expect it to be.".
 
 [ Testing ]
 Increasing sanity is an action out of world. Understand "sanity up" as increasing sanity.
@@ -108,8 +169,26 @@ Carry out checking sanity:
 	say "Current Room Sanity: [last sanity value of the location ]".
 
 [ Start Room - TODO ]
-The board is a thing in Room1.
-The board is portable.
+The board is a thing in Room1. The board is portable.
+The jagged knife is a thing in Room1. The jagged knife is portable.
+Understand "knife" as the jagged knife.
+
+Boarding up is an action applying to one thing. Understand "board [something]" or "board up [something]" as boarding up.
+
+instead opening the Iron Door:
+	if the Iron Door is unboarded:
+		say "A disembodied, stern voice whispers: 'Do not open that door!'";
+	if the Iron Door is boarded:
+		say "The Iron Door is nailed shut".
+
+Check boarding up:
+	if the player does not carry the board:
+		say "You need to have the board in your hand in order to board up the door.";
+	otherwise:
+		say "You firmly nail the board to the Iron Door, reinforcing it and buying yourself extra time.";
+		remove the board from play;
+		increase hunter_entrance_delay of the player by 4;
+		now the Iron Door is boarded;
 
 [ Second Room - TODO ]
 The lever is a thing in Room2. 
@@ -134,6 +213,30 @@ To decide whether (L - a list of things) is_a_prefix of (M - a list of things):
 	repeat with I running from 1 to the number of entries in L:
 		if entry I of L is not entry I of M, decide on false;
 	decide on true.
+
+
+[ Final Room ] 
+
+
+The altar is a thing in Room5. 
+
+Laying down on is an action applying to one thing.
+Understand "lay down on [something]" as laying down on.
+
+Instead of laying down on the altar:
+	end the story.
+
+[ Actions ]
+
+[ Attacking ]
+Attacking without weapon is an action applying to one thing.
+Attacking with weapon is an action applying to two things.
+
+Understand "hit [someone]" as attacking.
+Understand "attack [someone] with [something]" as attacking with weapon.
+Understand "stab [someone] with [something]" as attacking with weapon.
+Understand "hit [someone] with [something]" as attacking with weapon.
+Understand "cut [someone] with [something]" as attacking with weapon.
 
 [ Wires ]
 Connecting is an action applying to one thing.  
@@ -177,14 +280,5 @@ check pulling:
 	else:
 		say "You pull the lever, but nothing happens. The wires don't seem to be connected properly."
 
-[ Final Room ] 
 
-
-The altar is a thing in Room5. 
-
-Laying down on is an action applying to one thing.
-Understand "lay down on [something]" as laying down on.
-
-Instead of laying down on the altar:
-	end the story.
 

@@ -1,211 +1,181 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Skein rootNode="node-19">
+<Skein rootNode="node-1">
   <generator>Windows Inform 10.1.2</generator>
-  <item nodeId="node-19">
+  <item nodeId="node-1">
     <command xml:space="preserve">lab1_ktaschek</command>
-    <result xml:space="preserve">lab1&#x000A;An Interactive Fiction by ktaschek&#x000A;Release 1 / Serial number 250411 / Inform 7 v10.1.2 / D&#x000A;&#x000A;room1&#x000A;You can see a board here.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">lab1&#x000A;An Interactive Fiction by ktaschek&#x000A;Release 1 / Serial number 250415 / Inform 7 v10.1.2 / D&#x000A;&#x000A;hello&#x000A;Everything seems normal, and the room is as you would expect it to be.&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-41"/>
-      <child nodeId="node-20"/>
-      <child nodeId="node-33"/>
-      <child nodeId="node-73"/>
-      <child nodeId="node-159"/>
+      <child nodeId="node-2"/>
+      <child nodeId="node-24"/>
+      <child nodeId="node-53"/>
+      <child nodeId="node-287"/>
+      <child nodeId="node-146"/>
+      <child nodeId="node-285"/>
+      <child nodeId="node-266"/>
+      <child nodeId="node-154"/>
     </children>
   </item>
-  <item nodeId="node-41">
+  <item nodeId="node-2">
     <command xml:space="preserve">check sanity</command>
     <result xml:space="preserve">Sanity Level: 2&#x000A;Current Location: room1&#x000A;Current Room Sanity: 2&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-42"/>
+      <child nodeId="node-3"/>
     </children>
   </item>
-  <item nodeId="node-42">
+  <item nodeId="node-3">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-43"/>
-      <child nodeId="node-56"/>
+      <child nodeId="node-4"/>
+      <child nodeId="node-17"/>
     </children>
   </item>
-  <item nodeId="node-43">
+  <item nodeId="node-4">
     <command xml:space="preserve">check sanity</command>
     <result xml:space="preserve">Sanity Level: 2&#x000A;Current Location: room2&#x000A;Current Room Sanity: 2&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-44"/>
-      <child nodeId="node-50"/>
+      <child nodeId="node-5"/>
+      <child nodeId="node-11"/>
     </children>
   </item>
-  <item nodeId="node-44">
+  <item nodeId="node-5">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">room1&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-45"/>
+      <child nodeId="node-6"/>
     </children>
   </item>
-  <item nodeId="node-45">
+  <item nodeId="node-6">
     <command xml:space="preserve">sanity down</command>
     <result xml:space="preserve">Your mind trembles.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-46"/>
+      <child nodeId="node-7"/>
     </children>
   </item>
-  <item nodeId="node-46">
+  <item nodeId="node-7">
     <command xml:space="preserve">check sanity</command>
     <result xml:space="preserve">Sanity Level: 1&#x000A;Current Location: room1&#x000A;Current Room Sanity: 2&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-47"/>
+      <child nodeId="node-8"/>
     </children>
   </item>
-  <item nodeId="node-47">
+  <item nodeId="node-8">
     <command xml:space="preserve">sanity down</command>
     <result xml:space="preserve">Your mind trembles.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-48"/>
+      <child nodeId="node-9"/>
     </children>
   </item>
-  <item nodeId="node-48">
+  <item nodeId="node-9">
     <command xml:space="preserve">check sanity</command>
     <result xml:space="preserve">Sanity Level: 0&#x000A;Current Location: room1&#x000A;Current Room Sanity: 2&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-49"/>
+      <child nodeId="node-10"/>
     </children>
   </item>
-  <item nodeId="node-49">
+  <item nodeId="node-10">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">room2&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
-  <item nodeId="node-50">
+  <item nodeId="node-11">
     <command xml:space="preserve">sanity down</command>
     <result xml:space="preserve">Your mind trembles.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-51"/>
+      <child nodeId="node-12"/>
     </children>
   </item>
-  <item nodeId="node-51">
+  <item nodeId="node-12">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">room1&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-52"/>
-      <child nodeId="node-54"/>
+      <child nodeId="node-13"/>
+      <child nodeId="node-15"/>
     </children>
   </item>
-  <item nodeId="node-52">
+  <item nodeId="node-13">
     <command xml:space="preserve">check sanity</command>
     <result xml:space="preserve">Sanity Level: 1&#x000A;Current Location: room1&#x000A;Current Room Sanity: 2&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-53"/>
+      <child nodeId="node-14"/>
     </children>
   </item>
-  <item nodeId="node-53">
+  <item nodeId="node-14">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">room1&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
-  <item nodeId="node-54">
+  <item nodeId="node-15">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">room1&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-55"/>
+      <child nodeId="node-16"/>
     </children>
   </item>
-  <item nodeId="node-55">
+  <item nodeId="node-16">
     <command xml:space="preserve">check sanity</command>
     <result xml:space="preserve">Sanity Level: 1&#x000A;Current Location: room1&#x000A;Current Room Sanity: 2&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
-  <item nodeId="node-56">
+  <item nodeId="node-17">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">room2&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-57"/>
+      <child nodeId="node-18"/>
     </children>
   </item>
-  <item nodeId="node-57">
+  <item nodeId="node-18">
     <command xml:space="preserve">check sanity</command>
     <result xml:space="preserve">Sanity Level: 2&#x000A;Current Location: room2&#x000A;Current Room Sanity: 2&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-58"/>
+      <child nodeId="node-19"/>
     </children>
   </item>
-  <item nodeId="node-58">
+  <item nodeId="node-19">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-59"/>
+      <child nodeId="node-20"/>
     </children>
-  </item>
-  <item nodeId="node-59">
-    <command xml:space="preserve">l</command>
-    <result xml:space="preserve">room1&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-60"/>
-    </children>
-  </item>
-  <item nodeId="node-60">
-    <command xml:space="preserve">check sanity</command>
-    <result xml:space="preserve">Sanity Level: 2&#x000A;Current Location: room1&#x000A;Current Room Sanity: 2&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-61"/>
-    </children>
-  </item>
-  <item nodeId="node-61">
-    <command xml:space="preserve">sanity down</command>
-    <result xml:space="preserve">Your mind trembles.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-62"/>
-    </children>
-  </item>
-  <item nodeId="node-62">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">Something feels off as you step into the room2.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
   </item>
   <item nodeId="node-20">
     <command xml:space="preserve">l</command>
-    <result xml:space="preserve">room1&#x000A;You can see a board here.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">room1&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -213,18 +183,17 @@
     </children>
   </item>
   <item nodeId="node-21">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">room2&#x000A;You can see a lever here.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">check sanity</command>
+    <result xml:space="preserve">Sanity Level: 2&#x000A;Current Location: room1&#x000A;Current Room Sanity: 2&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
       <child nodeId="node-22"/>
-      <child nodeId="node-89"/>
     </children>
   </item>
   <item nodeId="node-22">
-    <command xml:space="preserve">increasing sanity</command>
-    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">sanity down</command>
+    <result xml:space="preserve">Your mind trembles.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -232,35 +201,51 @@
     </children>
   </item>
   <item nodeId="node-23">
-    <command xml:space="preserve">sanity up</command>
-    <result xml:space="preserve">You feel more composed.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Something feels off as you step into the room2.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
-    <children>
-      <child nodeId="node-24"/>
-    </children>
   </item>
   <item nodeId="node-24">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">room1&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Everything seems normal, and the room is as you would expect it to be.&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
+      <child nodeId="node-294"/>
       <child nodeId="node-25"/>
+      <child nodeId="node-302"/>
+      <child nodeId="node-293"/>
     </children>
   </item>
+  <item nodeId="node-294">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">room1&#x000A;You can see an Iron Door, a board and a jagged knife here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-295"/>
+    </children>
+  </item>
+  <item nodeId="node-295">
+    <command xml:space="preserve">take knife</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
   <item nodeId="node-25">
-    <command xml:space="preserve">sanity down</command>
-    <result xml:space="preserve">Your mind trembles.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">room2&#x000A;You can see a lever here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
       <child nodeId="node-26"/>
+      <child nodeId="node-37"/>
     </children>
   </item>
   <item nodeId="node-26">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">room2&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">increasing sanity</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -268,8 +253,8 @@
     </children>
   </item>
   <item nodeId="node-27">
-    <command xml:space="preserve">l</command>
-    <result xml:space="preserve">room2&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">sanity up</command>
+    <result xml:space="preserve">You feel more composed.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -295,8 +280,8 @@
     </children>
   </item>
   <item nodeId="node-30">
-    <command xml:space="preserve">sanity down</command>
-    <result xml:space="preserve">Your mind trembles.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">room2&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -304,7 +289,7 @@
     </children>
   </item>
   <item nodeId="node-31">
-    <command xml:space="preserve">n</command>
+    <command xml:space="preserve">l</command>
     <result xml:space="preserve">room2&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
@@ -313,882 +298,26 @@
     </children>
   </item>
   <item nodeId="node-32">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-  </item>
-  <item nodeId="node-89">
-    <command xml:space="preserve">take lever</command>
-    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">room1&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-90"/>
+      <child nodeId="node-33"/>
     </children>
-  </item>
-  <item nodeId="node-90">
-    <command xml:space="preserve">l</command>
-    <result xml:space="preserve">room2&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-91"/>
-    </children>
-  </item>
-  <item nodeId="node-91">
-    <command xml:space="preserve">i</command>
-    <result xml:space="preserve">You are carrying:&#x000A;  a lever&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-92"/>
-    </children>
-  </item>
-  <item nodeId="node-92">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">room3&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-93"/>
-    </children>
-  </item>
-  <item nodeId="node-93">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">room4&#x000A;You can see a wire A, a wire B, a wire C and a socket here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-94"/>
-    </children>
-  </item>
-  <item nodeId="node-94">
-    <command xml:space="preserve">attach lever</command>
-    <result xml:space="preserve">The lever latches into place&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-95"/>
-    </children>
-  </item>
-  <item nodeId="node-95">
-    <command xml:space="preserve">connect A</command>
-    <result xml:space="preserve">(the wire A)&#x000A;You connect the wire A.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-96"/>
-    </children>
-  </item>
-  <item nodeId="node-96">
-    <command xml:space="preserve">connect B</command>
-    <result xml:space="preserve">You connect the wire B.&#x000A;Sparks fly as the connections fizzle out! The wires reset.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-97"/>
-    </children>
-  </item>
-  <item nodeId="node-97">
-    <command xml:space="preserve">connect A</command>
-    <result xml:space="preserve">(the wire A)&#x000A;You connect the wire A.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-98"/>
-    </children>
-  </item>
-  <item nodeId="node-98">
-    <command xml:space="preserve">connect C</command>
-    <result xml:space="preserve">You connect the wire C.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-99"/>
-    </children>
-  </item>
-  <item nodeId="node-99">
-    <command xml:space="preserve">connect B</command>
-    <result xml:space="preserve">You connect the wire B.&#x000A;A satisfying click sounds as the wires align perfectly.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-100"/>
-    </children>
-  </item>
-  <item nodeId="node-100">
-    <command xml:space="preserve">pull lever</command>
-    <result xml:space="preserve">&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-101"/>
-    </children>
-  </item>
-  <item nodeId="node-101">
-    <command xml:space="preserve">l</command>
-    <result xml:space="preserve">room4&#x000A;You can see a lever, a wire A, a wire B, a wire C and a socket here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-102"/>
-    </children>
-  </item>
-  <item nodeId="node-102">
-    <command xml:space="preserve">pull</command>
-    <result xml:space="preserve">What do you want to pull?&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-103"/>
-    </children>
-  </item>
-  <item nodeId="node-103">
-    <command xml:space="preserve">pull wire A</command>
-    <result xml:space="preserve">&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-104"/>
-    </children>
-  </item>
-  <item nodeId="node-104">
-    <command xml:space="preserve">l</command>
-    <result xml:space="preserve">room4&#x000A;You can see a lever, a wire A, a wire B, a wire C and a socket here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
   </item>
   <item nodeId="node-33">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">room2&#x000A;You can see a lever here.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">sanity down</command>
+    <result xml:space="preserve">Your mind trembles.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-81"/>
-      <child nodeId="node-63"/>
-      <child nodeId="node-105"/>
-      <child nodeId="node-121"/>
       <child nodeId="node-34"/>
-      <child nodeId="node-85"/>
     </children>
-  </item>
-  <item nodeId="node-81">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-82"/>
-    </children>
-  </item>
-  <item nodeId="node-82">
-    <command xml:space="preserve">l</command>
-    <result xml:space="preserve">room2&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-83"/>
-    </children>
-  </item>
-  <item nodeId="node-83">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-84"/>
-    </children>
-  </item>
-  <item nodeId="node-84">
-    <command xml:space="preserve">l</command>
-    <result xml:space="preserve">room1&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-  </item>
-  <item nodeId="node-63">
-    <command xml:space="preserve">check sanity</command>
-    <result xml:space="preserve">Sanity Level: 2&#x000A;Current Location: room2&#x000A;Current Room Sanity: 2&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-64"/>
-    </children>
-  </item>
-  <item nodeId="node-64">
-    <command xml:space="preserve">sanity up</command>
-    <result xml:space="preserve">You feel more composed.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-65"/>
-    </children>
-  </item>
-  <item nodeId="node-65">
-    <command xml:space="preserve">check sanity</command>
-    <result xml:space="preserve">Sanity Level: 2&#x000A;Current Location: room2&#x000A;Current Room Sanity: 2&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-66"/>
-    </children>
-  </item>
-  <item nodeId="node-66">
-    <command xml:space="preserve">sanity down</command>
-    <result xml:space="preserve">Your mind trembles.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-67"/>
-    </children>
-  </item>
-  <item nodeId="node-67">
-    <command xml:space="preserve">sanity down</command>
-    <result xml:space="preserve">Your mind trembles.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-68"/>
-    </children>
-  </item>
-  <item nodeId="node-68">
-    <command xml:space="preserve">sanity down</command>
-    <result xml:space="preserve">Your mind trembles.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-69"/>
-    </children>
-  </item>
-  <item nodeId="node-69">
-    <command xml:space="preserve">sanity down</command>
-    <result xml:space="preserve">Your mind trembles.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-70"/>
-    </children>
-  </item>
-  <item nodeId="node-70">
-    <command xml:space="preserve">sanity down</command>
-    <result xml:space="preserve">Your mind trembles.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-71"/>
-    </children>
-  </item>
-  <item nodeId="node-71">
-    <command xml:space="preserve">check sanity</command>
-    <result xml:space="preserve">Sanity Level: 0&#x000A;Current Location: room2&#x000A;Current Room Sanity: 2&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-72"/>
-    </children>
-  </item>
-  <item nodeId="node-72">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">Something feels off as you step into the room1.&#x000A;&#x000A;room1&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-  </item>
-  <item nodeId="node-105">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">room3&#x000A;You can see a lockedDoor here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-141"/>
-      <child nodeId="node-106"/>
-      <child nodeId="node-271"/>
-    </children>
-  </item>
-  <item nodeId="node-141">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">(first opening the lockedDoor)&#x000A;It seems to be locked.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-142"/>
-    </children>
-  </item>
-  <item nodeId="node-142">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-143"/>
-    </children>
-  </item>
-  <item nodeId="node-143">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">room4&#x000A;You can see a wire A, a wire B, a wire C and a socket here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-144"/>
-    </children>
-  </item>
-  <item nodeId="node-144">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">room3&#x000A;You can see a lockedDoor here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-145"/>
-    </children>
-  </item>
-  <item nodeId="node-145">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">room2&#x000A;You can see a lever here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-146"/>
-    </children>
-  </item>
-  <item nodeId="node-146">
-    <command xml:space="preserve">pick up lever</command>
-    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-147"/>
-    </children>
-  </item>
-  <item nodeId="node-147">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">room3&#x000A;You can see a lockedDoor here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-148"/>
-    </children>
-  </item>
-  <item nodeId="node-148">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">room4&#x000A;You can see a wire A, a wire B, a wire C and a socket here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-149"/>
-    </children>
-  </item>
-  <item nodeId="node-149">
-    <command xml:space="preserve">connect A</command>
-    <result xml:space="preserve">(the wire A)&#x000A;You connect the wire A.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-150"/>
-    </children>
-  </item>
-  <item nodeId="node-150">
-    <command xml:space="preserve">connect B</command>
-    <result xml:space="preserve">You connect the wire B.&#x000A;Sparks fly as the connections fizzle out! The wires reset.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-151"/>
-    </children>
-  </item>
-  <item nodeId="node-151">
-    <command xml:space="preserve">connect A</command>
-    <result xml:space="preserve">(the wire A)&#x000A;You connect the wire A.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-152"/>
-    </children>
-  </item>
-  <item nodeId="node-152">
-    <command xml:space="preserve">connect C</command>
-    <result xml:space="preserve">You connect the wire C.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-153"/>
-    </children>
-  </item>
-  <item nodeId="node-153">
-    <command xml:space="preserve">connect B</command>
-    <result xml:space="preserve">You connect the wire B.&#x000A;A satisfying click sounds as the wires align perfectly.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-154"/>
-    </children>
-  </item>
-  <item nodeId="node-154">
-    <command xml:space="preserve">attach leve</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-155"/>
-    </children>
-  </item>
-  <item nodeId="node-155">
-    <command xml:space="preserve">attach lever</command>
-    <result xml:space="preserve">The lever latches into place&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-156"/>
-    </children>
-  </item>
-  <item nodeId="node-156">
-    <command xml:space="preserve">pull lever</command>
-    <result xml:space="preserve">You pull the lever and the mechanism hums to life. The wires glow with energy. You here something unlock&#x000A;Nothing obvious happens.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-157"/>
-    </children>
-  </item>
-  <item nodeId="node-157">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">room3&#x000A;You can see a lockedDoor here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-158"/>
-    </children>
-  </item>
-  <item nodeId="node-158">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">(first opening the lockedDoor)&#x000A;&#x000A;room5&#x000A;You can see a lockedDoor here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-  </item>
-  <item nodeId="node-106">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">room4&#x000A;You can see a wire A, a wire B, a wire C and a socket here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-107"/>
-    </children>
-  </item>
-  <item nodeId="node-107">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">room3&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-108"/>
-    </children>
-  </item>
-  <item nodeId="node-108">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">room2&#x000A;You can see a lever here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-109"/>
-    </children>
-  </item>
-  <item nodeId="node-109">
-    <command xml:space="preserve">pick up lever</command>
-    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-110"/>
-    </children>
-  </item>
-  <item nodeId="node-110">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">room3&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-111"/>
-    </children>
-  </item>
-  <item nodeId="node-111">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">room4&#x000A;You can see a wire A, a wire B, a wire C and a socket here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-112"/>
-    </children>
-  </item>
-  <item nodeId="node-112">
-    <command xml:space="preserve">attach lever</command>
-    <result xml:space="preserve">The lever latches into place&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-113"/>
-    </children>
-  </item>
-  <item nodeId="node-113">
-    <command xml:space="preserve">pull</command>
-    <result xml:space="preserve">What do you want to pull?&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-114"/>
-    </children>
-  </item>
-  <item nodeId="node-114">
-    <command xml:space="preserve">lever</command>
-    <result xml:space="preserve">You pull the lever, but nothing happens. The wires don't seem to be connected properly.&#x000A;&#x000A;Nothing obvious happens.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-115"/>
-    </children>
-  </item>
-  <item nodeId="node-115">
-    <command xml:space="preserve">connect a</command>
-    <result xml:space="preserve">(the wire A)&#x000A;You connect the wire A.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-116"/>
-    </children>
-  </item>
-  <item nodeId="node-116">
-    <command xml:space="preserve">connect b</command>
-    <result xml:space="preserve">You connect the wire B.&#x000A;Sparks fly as the connections fizzle out! The wires reset.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-117"/>
-    </children>
-  </item>
-  <item nodeId="node-117">
-    <command xml:space="preserve">connect a</command>
-    <result xml:space="preserve">(the wire A)&#x000A;You connect the wire A.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-118"/>
-    </children>
-  </item>
-  <item nodeId="node-118">
-    <command xml:space="preserve">connect c</command>
-    <result xml:space="preserve">You connect the wire C.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-119"/>
-    </children>
-  </item>
-  <item nodeId="node-119">
-    <command xml:space="preserve">connect b</command>
-    <result xml:space="preserve">You connect the wire B.&#x000A;A satisfying click sounds as the wires align perfectly.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-120"/>
-    </children>
-  </item>
-  <item nodeId="node-120">
-    <command xml:space="preserve">pull lever</command>
-    <result xml:space="preserve">You pull the lever and the mechanism hums to life. The wires glow with energy.&#x000A;&#x000A;Nothing obvious happens.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-  </item>
-  <item nodeId="node-271">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">room2&#x000A;You can see a lever here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-272"/>
-    </children>
-  </item>
-  <item nodeId="node-272">
-    <command xml:space="preserve">pick up lever</command>
-    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-273"/>
-    </children>
-  </item>
-  <item nodeId="node-273">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">room3&#x000A;You can see a lockedDoor here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-274"/>
-    </children>
-  </item>
-  <item nodeId="node-274">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">room4&#x000A;You can see a wire A, a wire B, a wire C and a socket here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-275"/>
-    </children>
-  </item>
-  <item nodeId="node-275">
-    <command xml:space="preserve">connect a</command>
-    <result xml:space="preserve">(the wire A)&#x000A;You connect the wire A.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-276"/>
-    </children>
-  </item>
-  <item nodeId="node-276">
-    <command xml:space="preserve">connect c</command>
-    <result xml:space="preserve">You connect the wire C.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-277"/>
-    </children>
-  </item>
-  <item nodeId="node-277">
-    <command xml:space="preserve">connect b</command>
-    <result xml:space="preserve">You connect the wire B.&#x000A;A satisfying click sounds as the wires align perfectly.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-278"/>
-    </children>
-  </item>
-  <item nodeId="node-278">
-    <command xml:space="preserve">attach lever</command>
-    <result xml:space="preserve">The lever latches into place&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-279"/>
-    </children>
-  </item>
-  <item nodeId="node-279">
-    <command xml:space="preserve">pull lever</command>
-    <result xml:space="preserve">You pull the lever and the mechanism hums to life. The wires glow with energy. You here something unlock&#x000A;Nothing obvious happens.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-280"/>
-    </children>
-  </item>
-  <item nodeId="node-280">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">room3&#x000A;You can see a lockedDoor here.&#x000A;&#x000A;A distant click echoes as you notice the boarded door creak open...&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-281"/>
-    </children>
-  </item>
-  <item nodeId="node-281">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">(first opening the lockedDoor)&#x000A;&#x000A;room5&#x000A;You can see a lockedDoor, a doctor and an altar here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-282"/>
-    </children>
-  </item>
-  <item nodeId="node-282">
-    <command xml:space="preserve">lay on altar</command>
-    <result xml:space="preserve">I didn't understand that sentence.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-283"/>
-    </children>
-  </item>
-  <item nodeId="node-283">
-    <command xml:space="preserve">lay down on altar</command>
-    <result xml:space="preserve">*** The End ***&#x000A;&#x000A;&#x000A;&#x000A;&#x000A;Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-  </item>
-  <item nodeId="node-121">
-    <command xml:space="preserve">pick up lever</command>
-    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-122"/>
-    </children>
-  </item>
-  <item nodeId="node-122">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">room3&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-123"/>
-    </children>
-  </item>
-  <item nodeId="node-123">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">room4&#x000A;You can see a wire A, a wire B, a wire C and a socket here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-124"/>
-    </children>
-  </item>
-  <item nodeId="node-124">
-    <command xml:space="preserve">connect a</command>
-    <result xml:space="preserve">(the wire A)&#x000A;You connect the wire A.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-125"/>
-    </children>
-  </item>
-  <item nodeId="node-125">
-    <command xml:space="preserve">connect c</command>
-    <result xml:space="preserve">You connect the wire C.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-126"/>
-    </children>
-  </item>
-  <item nodeId="node-126">
-    <command xml:space="preserve">connect b</command>
-    <result xml:space="preserve">You connect the wire B.&#x000A;A satisfying click sounds as the wires align perfectly.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-127"/>
-    </children>
-  </item>
-  <item nodeId="node-127">
-    <command xml:space="preserve">attach lever</command>
-    <result xml:space="preserve">The lever latches into place&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-128"/>
-    </children>
-  </item>
-  <item nodeId="node-128">
-    <command xml:space="preserve">pull lever</command>
-    <result xml:space="preserve">You pull the lever and the mechanism hums to life. The wires glow with energy.&#x000A;&#x000A;Nothing obvious happens.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-129"/>
-    </children>
-  </item>
-  <item nodeId="node-129">
-    <command xml:space="preserve">pull lever</command>
-    <result xml:space="preserve">You pull the lever and the mechanism hums to life. The wires glow with energy.&#x000A;&#x000A;Nothing obvious happens.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-130"/>
-    </children>
-  </item>
-  <item nodeId="node-130">
-    <command xml:space="preserve">connect A</command>
-    <result xml:space="preserve">(the wire A)&#x000A;You've already connected the wire A.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-131"/>
-    </children>
-  </item>
-  <item nodeId="node-131">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">room3&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-132"/>
-    </children>
-  </item>
-  <item nodeId="node-132">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">room5&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-133"/>
-    </children>
-  </item>
-  <item nodeId="node-133">
-    <command xml:space="preserve">l</command>
-    <result xml:space="preserve">room5&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-134"/>
-    </children>
-  </item>
-  <item nodeId="node-134">
-    <command xml:space="preserve">restart</command>
-    <result xml:space="preserve">Are you sure you want to restart?</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-135"/>
-    </children>
-  </item>
-  <item nodeId="node-135">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">Please answer yes or no.&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-136"/>
-    </children>
-  </item>
-  <item nodeId="node-136">
-    <command xml:space="preserve">yes</command>
-    <result xml:space="preserve">lab1&#x000A;An Interactive Fiction by ktaschek&#x000A;Release 1 / Serial number 250411 / Inform 7 v10.1.2 / D&#x000A;&#x000A;room1&#x000A;You can see a board here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-137"/>
-    </children>
-  </item>
-  <item nodeId="node-137">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">room2&#x000A;You can see a lever here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-138"/>
-    </children>
-  </item>
-  <item nodeId="node-138">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">room3&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-139"/>
-    </children>
-  </item>
-  <item nodeId="node-139">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">room5&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-140"/>
-    </children>
-  </item>
-  <item nodeId="node-140">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
   </item>
   <item nodeId="node-34">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">room1&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">sanity down</command>
+    <result xml:space="preserve">Your mind trembles.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1196,8 +325,8 @@
     </children>
   </item>
   <item nodeId="node-35">
-    <command xml:space="preserve">sanity down</command>
-    <result xml:space="preserve">Your mind trembles.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">room2&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1206,16 +335,13 @@
   </item>
   <item nodeId="node-36">
     <command xml:space="preserve">n</command>
-    <result xml:space="preserve">room2&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
-    <children>
-      <child nodeId="node-37"/>
-    </children>
   </item>
   <item nodeId="node-37">
-    <command xml:space="preserve">l</command>
-    <result xml:space="preserve">room2&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">take lever</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1223,8 +349,8 @@
     </children>
   </item>
   <item nodeId="node-38">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">room1&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">room2&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1232,8 +358,8 @@
     </children>
   </item>
   <item nodeId="node-39">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">room2&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  a lever&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1241,47 +367,369 @@
     </children>
   </item>
   <item nodeId="node-40">
-    <command xml:space="preserve">sanity down</command>
-    <result xml:space="preserve">Your mind trembles.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">room3&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-41"/>
+    </children>
+  </item>
+  <item nodeId="node-41">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">room4&#x000A;You can see a wire A, a wire B, a wire C and a socket here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-42"/>
+    </children>
+  </item>
+  <item nodeId="node-42">
+    <command xml:space="preserve">attach lever</command>
+    <result xml:space="preserve">The lever latches into place&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-43"/>
+    </children>
+  </item>
+  <item nodeId="node-43">
+    <command xml:space="preserve">connect A</command>
+    <result xml:space="preserve">(the wire A)&#x000A;You connect the wire A.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-44"/>
+    </children>
+  </item>
+  <item nodeId="node-44">
+    <command xml:space="preserve">connect B</command>
+    <result xml:space="preserve">You connect the wire B.&#x000A;Sparks fly as the connections fizzle out! The wires reset.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-45"/>
+    </children>
+  </item>
+  <item nodeId="node-45">
+    <command xml:space="preserve">connect A</command>
+    <result xml:space="preserve">(the wire A)&#x000A;You connect the wire A.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-46"/>
+    </children>
+  </item>
+  <item nodeId="node-46">
+    <command xml:space="preserve">connect C</command>
+    <result xml:space="preserve">You connect the wire C.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-47"/>
+    </children>
+  </item>
+  <item nodeId="node-47">
+    <command xml:space="preserve">connect B</command>
+    <result xml:space="preserve">You connect the wire B.&#x000A;A satisfying click sounds as the wires align perfectly.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-48"/>
+    </children>
+  </item>
+  <item nodeId="node-48">
+    <command xml:space="preserve">pull lever</command>
+    <result xml:space="preserve">&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-49"/>
+    </children>
+  </item>
+  <item nodeId="node-49">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">room4&#x000A;You can see a lever, a wire A, a wire B, a wire C and a socket here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-50"/>
+    </children>
+  </item>
+  <item nodeId="node-50">
+    <command xml:space="preserve">pull</command>
+    <result xml:space="preserve">What do you want to pull?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-51"/>
+    </children>
+  </item>
+  <item nodeId="node-51">
+    <command xml:space="preserve">pull wire A</command>
+    <result xml:space="preserve">&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-52"/>
+    </children>
+  </item>
+  <item nodeId="node-52">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">room4&#x000A;You can see a lever, a wire A, a wire B, a wire C and a socket here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
-  <item nodeId="node-85">
+  <item nodeId="node-302">
+    <command xml:space="preserve">restart</command>
+    <result xml:space="preserve">Are you sure you want to restart?</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-303"/>
+    </children>
+  </item>
+  <item nodeId="node-303">
+    <command xml:space="preserve">yes</command>
+    <result xml:space="preserve">lab1&#x000A;An Interactive Fiction by ktaschek&#x000A;Release 1 / Serial number 250415 / Inform 7 v10.1.2 / D&#x000A;&#x000A;hello&#x000A;Everything seems normal, and the room is as you would expect it to be.&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-304"/>
+    </children>
+  </item>
+  <item nodeId="node-304">
+    <command xml:space="preserve">take knife</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-305"/>
+    </children>
+  </item>
+  <item nodeId="node-305">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Everything seems normal, and the room is as you would expect it to be.&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-293">
+    <command xml:space="preserve">take knife</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-297"/>
+    </children>
+  </item>
+  <item nodeId="node-297">
+    <command xml:space="preserve">restart</command>
+    <result xml:space="preserve">Are you sure you want to restart?</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-298"/>
+    </children>
+  </item>
+  <item nodeId="node-298">
+    <command xml:space="preserve">yes</command>
+    <result xml:space="preserve">lab1&#x000A;An Interactive Fiction by ktaschek&#x000A;Release 1 / Serial number 250415 / Inform 7 v10.1.2 / D&#x000A;&#x000A;Everything seems normal, and the room is as you would expect it to be.&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-299"/>
+    </children>
+  </item>
+  <item nodeId="node-299">
+    <command xml:space="preserve">take knife</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;You try to get up, but your legs betray you. In an instant you collapse back onto the floor-the impact jostles your head. The world seems to shift, as if seen through unfamiliar eyes.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-53">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">room2&#x000A;You can see a lever here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-54"/>
+      <child nodeId="node-58"/>
+      <child nodeId="node-68"/>
+      <child nodeId="node-115"/>
+      <child nodeId="node-135"/>
+      <child nodeId="node-142"/>
+    </children>
+  </item>
+  <item nodeId="node-54">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-55"/>
+    </children>
+  </item>
+  <item nodeId="node-55">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">room2&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-56"/>
+    </children>
+  </item>
+  <item nodeId="node-56">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-57"/>
+    </children>
+  </item>
+  <item nodeId="node-57">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">room1&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-58">
+    <command xml:space="preserve">check sanity</command>
+    <result xml:space="preserve">Sanity Level: 2&#x000A;Current Location: room2&#x000A;Current Room Sanity: 2&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-59"/>
+    </children>
+  </item>
+  <item nodeId="node-59">
     <command xml:space="preserve">sanity up</command>
     <result xml:space="preserve">You feel more composed.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-86"/>
+      <child nodeId="node-60"/>
     </children>
   </item>
-  <item nodeId="node-86">
+  <item nodeId="node-60">
+    <command xml:space="preserve">check sanity</command>
+    <result xml:space="preserve">Sanity Level: 2&#x000A;Current Location: room2&#x000A;Current Room Sanity: 2&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-61"/>
+    </children>
+  </item>
+  <item nodeId="node-61">
     <command xml:space="preserve">sanity down</command>
     <result xml:space="preserve">Your mind trembles.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-87"/>
+      <child nodeId="node-62"/>
     </children>
   </item>
-  <item nodeId="node-87">
+  <item nodeId="node-62">
+    <command xml:space="preserve">sanity down</command>
+    <result xml:space="preserve">Your mind trembles.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-63"/>
+    </children>
+  </item>
+  <item nodeId="node-63">
+    <command xml:space="preserve">sanity down</command>
+    <result xml:space="preserve">Your mind trembles.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-64"/>
+    </children>
+  </item>
+  <item nodeId="node-64">
+    <command xml:space="preserve">sanity down</command>
+    <result xml:space="preserve">Your mind trembles.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-65"/>
+    </children>
+  </item>
+  <item nodeId="node-65">
+    <command xml:space="preserve">sanity down</command>
+    <result xml:space="preserve">Your mind trembles.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-66"/>
+    </children>
+  </item>
+  <item nodeId="node-66">
+    <command xml:space="preserve">check sanity</command>
+    <result xml:space="preserve">Sanity Level: 0&#x000A;Current Location: room2&#x000A;Current Room Sanity: 2&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-67"/>
+    </children>
+  </item>
+  <item nodeId="node-67">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">Something feels off as you step into the room1.&#x000A;&#x000A;room1&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
-    <children>
-      <child nodeId="node-88"/>
-    </children>
   </item>
-  <item nodeId="node-88">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">Something feels off as you step into the room2.&#x000A;&#x000A;room2&#x000A;&#x000A;&gt;</result>
+  <item nodeId="node-68">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">room3&#x000A;You can see a lockedDoor here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
+    <children>
+      <child nodeId="node-69"/>
+      <child nodeId="node-87"/>
+      <child nodeId="node-102"/>
+    </children>
+  </item>
+  <item nodeId="node-69">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">(first opening the lockedDoor)&#x000A;It seems to be locked.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-70"/>
+    </children>
+  </item>
+  <item nodeId="node-70">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-71"/>
+    </children>
+  </item>
+  <item nodeId="node-71">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">room4&#x000A;You can see a wire A, a wire B, a wire C and a socket here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-72"/>
+    </children>
+  </item>
+  <item nodeId="node-72">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">room3&#x000A;You can see a lockedDoor here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-73"/>
+    </children>
   </item>
   <item nodeId="node-73">
-    <command xml:space="preserve">sanity down</command>
-    <result xml:space="preserve">Your mind trembles.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">room2&#x000A;You can see a lever here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1289,8 +737,8 @@
     </children>
   </item>
   <item nodeId="node-74">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">Something feels off as you step into the room2.&#x000A;&#x000A;room2&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">pick up lever</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1298,8 +746,8 @@
     </children>
   </item>
   <item nodeId="node-75">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">Something feels off as you step into the room1.&#x000A;&#x000A;room1&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">room3&#x000A;You can see a lockedDoor here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1308,7 +756,7 @@
   </item>
   <item nodeId="node-76">
     <command xml:space="preserve">n</command>
-    <result xml:space="preserve">room2&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">room4&#x000A;You can see a wire A, a wire B, a wire C and a socket here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1316,8 +764,8 @@
     </children>
   </item>
   <item nodeId="node-77">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">room1&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">connect A</command>
+    <result xml:space="preserve">(the wire A)&#x000A;You connect the wire A.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1325,8 +773,8 @@
     </children>
   </item>
   <item nodeId="node-78">
-    <command xml:space="preserve">check sanity</command>
-    <result xml:space="preserve">Sanity Level: 1&#x000A;Current Location: room1&#x000A;Current Room Sanity: 1&#x000A;&gt;</result>
+    <command xml:space="preserve">connect B</command>
+    <result xml:space="preserve">You connect the wire B.&#x000A;Sparks fly as the connections fizzle out! The wires reset.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1334,8 +782,8 @@
     </children>
   </item>
   <item nodeId="node-79">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">room2&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">connect A</command>
+    <result xml:space="preserve">(the wire A)&#x000A;You connect the wire A.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1343,607 +791,730 @@
     </children>
   </item>
   <item nodeId="node-80">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">room1&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-  </item>
-  <item nodeId="node-159">
-    <command xml:space="preserve">z</command>
-    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-160"/>
-    </children>
-  </item>
-  <item nodeId="node-160">
-    <command xml:space="preserve">z</command>
-    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-186"/>
-      <child nodeId="node-161"/>
-    </children>
-  </item>
-  <item nodeId="node-186">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-187"/>
-      <child nodeId="node-249"/>
-    </children>
-  </item>
-  <item nodeId="node-187">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-188"/>
-    </children>
-  </item>
-  <item nodeId="node-188">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-189"/>
-    </children>
-  </item>
-  <item nodeId="node-189">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-190"/>
-    </children>
-  </item>
-  <item nodeId="node-190">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-191"/>
-    </children>
-  </item>
-  <item nodeId="node-191">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-192"/>
-    </children>
-  </item>
-  <item nodeId="node-192">
-    <command xml:space="preserve">z</command>
-    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-193"/>
-    </children>
-  </item>
-  <item nodeId="node-193">
-    <command xml:space="preserve">z</command>
-    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-194"/>
-    </children>
-  </item>
-  <item nodeId="node-194">
-    <command xml:space="preserve">z</command>
-    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-195"/>
-    </children>
-  </item>
-  <item nodeId="node-195">
-    <command xml:space="preserve">z</command>
-    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-196"/>
-    </children>
-  </item>
-  <item nodeId="node-196">
-    <command xml:space="preserve">z</command>
-    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-197"/>
-    </children>
-  </item>
-  <item nodeId="node-197">
-    <command xml:space="preserve">z</command>
-    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-198"/>
-    </children>
-  </item>
-  <item nodeId="node-198">
-    <command xml:space="preserve">z</command>
-    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-199"/>
-    </children>
-  </item>
-  <item nodeId="node-199">
-    <command xml:space="preserve">z</command>
-    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-200"/>
-    </children>
-  </item>
-  <item nodeId="node-200">
-    <command xml:space="preserve">z</command>
-    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-201"/>
-    </children>
-  </item>
-  <item nodeId="node-201">
-    <command xml:space="preserve">z</command>
-    <result xml:space="preserve">Time passes.&#x000A;&#x000A;A distant click echoes as you notice the boarded door creak open...&#x000A;&#x000A;The hunter looms ominously. You have 4 turns left before he strikes!&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-202"/>
-    </children>
-  </item>
-  <item nodeId="node-202">
-    <command xml:space="preserve">z</command>
-    <result xml:space="preserve">Time passes.&#x000A;&#x000A;The hunter looms ominously. You have 3 turns left before he strikes!&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-203"/>
-    </children>
-  </item>
-  <item nodeId="node-203">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-204"/>
-    </children>
-  </item>
-  <item nodeId="node-204">
-    <command xml:space="preserve">z</command>
-    <result xml:space="preserve">Time passes.&#x000A;&#x000A;The hunter looms ominously. You have 2 turns left before he strikes!&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-205"/>
-    </children>
-  </item>
-  <item nodeId="node-205">
-    <command xml:space="preserve">z</command>
-    <result xml:space="preserve">Time passes.&#x000A;&#x000A;The hunter looms ominously. You have 1 turn left before he strikes!&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-206"/>
-    </children>
-  </item>
-  <item nodeId="node-206">
-    <command xml:space="preserve">z</command>
-    <result xml:space="preserve">Time passes.&#x000A;&#x000A;The hunter looms ominously. You have 0 turns left before he strikes!&#x000A;Before you can act, the hunter pounces-your fate is sealed!&#x000A;&#x000A;&#x000A;&#x000A;    *** The End ***&#x000A;&#x000A;&#x000A;&#x000A;&#x000A;Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-207"/>
-    </children>
-  </item>
-  <item nodeId="node-207">
-    <command xml:space="preserve">restart</command>
-    <result xml:space="preserve">lab1&#x000A;An Interactive Fiction by ktaschek&#x000A;Release 1 / Serial number 250411 / Inform 7 v10.1.2 / D&#x000A;&#x000A;room1&#x000A;You can see a board here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-208"/>
-    </children>
-  </item>
-  <item nodeId="node-208">
-    <command xml:space="preserve">z</command>
-    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-209"/>
-    </children>
-  </item>
-  <item nodeId="node-209">
-    <command xml:space="preserve">z</command>
-    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-210"/>
-    </children>
-  </item>
-  <item nodeId="node-210">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">room2&#x000A;You can see a lever here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-211"/>
-    </children>
-  </item>
-  <item nodeId="node-211">
-    <command xml:space="preserve">pick up lever</command>
-    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-212"/>
-    </children>
-  </item>
-  <item nodeId="node-212">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">room3&#x000A;You can see a lockedDoor here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-213"/>
-    </children>
-  </item>
-  <item nodeId="node-213">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">room4&#x000A;You can see a wire A, a wire B, a wire C and a socket here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-214"/>
-    </children>
-  </item>
-  <item nodeId="node-214">
-    <command xml:space="preserve">connect a</command>
-    <result xml:space="preserve">(the wire A)&#x000A;You connect the wire A.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-215"/>
-    </children>
-  </item>
-  <item nodeId="node-215">
-    <command xml:space="preserve">connect c</command>
+    <command xml:space="preserve">connect C</command>
     <result xml:space="preserve">You connect the wire C.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-216"/>
+      <child nodeId="node-81"/>
     </children>
   </item>
-  <item nodeId="node-216">
-    <command xml:space="preserve">connect b</command>
+  <item nodeId="node-81">
+    <command xml:space="preserve">connect B</command>
     <result xml:space="preserve">You connect the wire B.&#x000A;A satisfying click sounds as the wires align perfectly.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-217"/>
+      <child nodeId="node-82"/>
     </children>
   </item>
-  <item nodeId="node-217">
+  <item nodeId="node-82">
+    <command xml:space="preserve">attach leve</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-83"/>
+    </children>
+  </item>
+  <item nodeId="node-83">
     <command xml:space="preserve">attach lever</command>
     <result xml:space="preserve">The lever latches into place&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-218"/>
+      <child nodeId="node-84"/>
     </children>
   </item>
-  <item nodeId="node-218">
+  <item nodeId="node-84">
     <command xml:space="preserve">pull lever</command>
     <result xml:space="preserve">You pull the lever and the mechanism hums to life. The wires glow with energy. You here something unlock&#x000A;Nothing obvious happens.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-219"/>
+      <child nodeId="node-85"/>
     </children>
   </item>
-  <item nodeId="node-219">
+  <item nodeId="node-85">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">room3&#x000A;You can see a lockedDoor here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-86"/>
+    </children>
+  </item>
+  <item nodeId="node-86">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">(first opening the lockedDoor)&#x000A;&#x000A;room5&#x000A;You can see a lockedDoor here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-87">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">room4&#x000A;You can see a wire A, a wire B, a wire C and a socket here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-88"/>
+    </children>
+  </item>
+  <item nodeId="node-88">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">room3&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-89"/>
+    </children>
+  </item>
+  <item nodeId="node-89">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">room2&#x000A;You can see a lever here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-90"/>
+    </children>
+  </item>
+  <item nodeId="node-90">
+    <command xml:space="preserve">pick up lever</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-91"/>
+    </children>
+  </item>
+  <item nodeId="node-91">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">room3&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-92"/>
+    </children>
+  </item>
+  <item nodeId="node-92">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">room4&#x000A;You can see a wire A, a wire B, a wire C and a socket here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-93"/>
+    </children>
+  </item>
+  <item nodeId="node-93">
+    <command xml:space="preserve">attach lever</command>
+    <result xml:space="preserve">The lever latches into place&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-94"/>
+    </children>
+  </item>
+  <item nodeId="node-94">
+    <command xml:space="preserve">pull</command>
+    <result xml:space="preserve">What do you want to pull?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-95"/>
+    </children>
+  </item>
+  <item nodeId="node-95">
+    <command xml:space="preserve">lever</command>
+    <result xml:space="preserve">You pull the lever, but nothing happens. The wires don't seem to be connected properly.&#x000A;&#x000A;Nothing obvious happens.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-96"/>
+    </children>
+  </item>
+  <item nodeId="node-96">
+    <command xml:space="preserve">connect a</command>
+    <result xml:space="preserve">(the wire A)&#x000A;You connect the wire A.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-97"/>
+    </children>
+  </item>
+  <item nodeId="node-97">
+    <command xml:space="preserve">connect b</command>
+    <result xml:space="preserve">You connect the wire B.&#x000A;Sparks fly as the connections fizzle out! The wires reset.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-98"/>
+    </children>
+  </item>
+  <item nodeId="node-98">
+    <command xml:space="preserve">connect a</command>
+    <result xml:space="preserve">(the wire A)&#x000A;You connect the wire A.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-99"/>
+    </children>
+  </item>
+  <item nodeId="node-99">
+    <command xml:space="preserve">connect c</command>
+    <result xml:space="preserve">You connect the wire C.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-100"/>
+    </children>
+  </item>
+  <item nodeId="node-100">
+    <command xml:space="preserve">connect b</command>
+    <result xml:space="preserve">You connect the wire B.&#x000A;A satisfying click sounds as the wires align perfectly.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-101"/>
+    </children>
+  </item>
+  <item nodeId="node-101">
+    <command xml:space="preserve">pull lever</command>
+    <result xml:space="preserve">You pull the lever and the mechanism hums to life. The wires glow with energy.&#x000A;&#x000A;Nothing obvious happens.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-102">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">room2&#x000A;You can see a lever here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-103"/>
+    </children>
+  </item>
+  <item nodeId="node-103">
+    <command xml:space="preserve">pick up lever</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-104"/>
+    </children>
+  </item>
+  <item nodeId="node-104">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">room3&#x000A;You can see a lockedDoor here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-105"/>
+    </children>
+  </item>
+  <item nodeId="node-105">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">room4&#x000A;You can see a wire A, a wire B, a wire C and a socket here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-106"/>
+    </children>
+  </item>
+  <item nodeId="node-106">
+    <command xml:space="preserve">connect a</command>
+    <result xml:space="preserve">(the wire A)&#x000A;You connect the wire A.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-107"/>
+    </children>
+  </item>
+  <item nodeId="node-107">
+    <command xml:space="preserve">connect c</command>
+    <result xml:space="preserve">You connect the wire C.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-108"/>
+    </children>
+  </item>
+  <item nodeId="node-108">
+    <command xml:space="preserve">connect b</command>
+    <result xml:space="preserve">You connect the wire B.&#x000A;A satisfying click sounds as the wires align perfectly.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-109"/>
+    </children>
+  </item>
+  <item nodeId="node-109">
+    <command xml:space="preserve">attach lever</command>
+    <result xml:space="preserve">The lever latches into place&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-110"/>
+    </children>
+  </item>
+  <item nodeId="node-110">
+    <command xml:space="preserve">pull lever</command>
+    <result xml:space="preserve">You pull the lever and the mechanism hums to life. The wires glow with energy. You here something unlock&#x000A;Nothing obvious happens.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-111"/>
+    </children>
+  </item>
+  <item nodeId="node-111">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">room3&#x000A;You can see a lockedDoor here.&#x000A;&#x000A;A distant click echoes as you notice the boarded door creak open...&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-220"/>
+      <child nodeId="node-112"/>
     </children>
   </item>
-  <item nodeId="node-220">
-    <command xml:space="preserve">z</command>
-    <result xml:space="preserve">Time passes.&#x000A;&#x000A;The hunter arrives from the west.&#x000A;&#x000A;The hunter looms ominously. You have 4 turns left before he strikes!&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-221"/>
-    </children>
-  </item>
-  <item nodeId="node-221">
-    <command xml:space="preserve">l</command>
-    <result xml:space="preserve">room3&#x000A;You can see a hunter and a lockedDoor here.&#x000A;&#x000A;The hunter looms ominously. You have 3 turns left before he strikes!&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-222"/>
-    </children>
-  </item>
-  <item nodeId="node-222">
-    <command xml:space="preserve">l</command>
-    <result xml:space="preserve">room3&#x000A;You can see a hunter and a lockedDoor here.&#x000A;&#x000A;The hunter looms ominously. You have 2 turns left before he strikes!&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-223"/>
-    </children>
-  </item>
-  <item nodeId="node-223">
+  <item nodeId="node-112">
     <command xml:space="preserve">e</command>
-    <result xml:space="preserve">(first opening the lockedDoor)&#x000A;&#x000A;room5&#x000A;You can see a lockedDoor here.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">(first opening the lockedDoor)&#x000A;&#x000A;room5&#x000A;You can see a lockedDoor, a doctor and an altar here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-224"/>
+      <child nodeId="node-113"/>
     </children>
   </item>
-  <item nodeId="node-224">
+  <item nodeId="node-113">
+    <command xml:space="preserve">lay on altar</command>
+    <result xml:space="preserve">I didn't understand that sentence.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-114"/>
+    </children>
+  </item>
+  <item nodeId="node-114">
+    <command xml:space="preserve">lay down on altar</command>
+    <result xml:space="preserve">*** The End ***&#x000A;&#x000A;&#x000A;&#x000A;&#x000A;Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-115">
+    <command xml:space="preserve">pick up lever</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-116"/>
+    </children>
+  </item>
+  <item nodeId="node-116">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">room3&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-117"/>
+    </children>
+  </item>
+  <item nodeId="node-117">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">room4&#x000A;You can see a wire A, a wire B, a wire C and a socket here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-118"/>
+    </children>
+  </item>
+  <item nodeId="node-118">
+    <command xml:space="preserve">connect a</command>
+    <result xml:space="preserve">(the wire A)&#x000A;You connect the wire A.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-119"/>
+    </children>
+  </item>
+  <item nodeId="node-119">
+    <command xml:space="preserve">connect c</command>
+    <result xml:space="preserve">You connect the wire C.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-120"/>
+    </children>
+  </item>
+  <item nodeId="node-120">
+    <command xml:space="preserve">connect b</command>
+    <result xml:space="preserve">You connect the wire B.&#x000A;A satisfying click sounds as the wires align perfectly.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-121"/>
+    </children>
+  </item>
+  <item nodeId="node-121">
+    <command xml:space="preserve">attach lever</command>
+    <result xml:space="preserve">The lever latches into place&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-122"/>
+    </children>
+  </item>
+  <item nodeId="node-122">
+    <command xml:space="preserve">pull lever</command>
+    <result xml:space="preserve">You pull the lever and the mechanism hums to life. The wires glow with energy.&#x000A;&#x000A;Nothing obvious happens.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-123"/>
+    </children>
+  </item>
+  <item nodeId="node-123">
+    <command xml:space="preserve">pull lever</command>
+    <result xml:space="preserve">You pull the lever and the mechanism hums to life. The wires glow with energy.&#x000A;&#x000A;Nothing obvious happens.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-124"/>
+    </children>
+  </item>
+  <item nodeId="node-124">
+    <command xml:space="preserve">connect A</command>
+    <result xml:space="preserve">(the wire A)&#x000A;You've already connected the wire A.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-125"/>
+    </children>
+  </item>
+  <item nodeId="node-125">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">room3&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-126"/>
+    </children>
+  </item>
+  <item nodeId="node-126">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">room5&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-127"/>
+    </children>
+  </item>
+  <item nodeId="node-127">
     <command xml:space="preserve">l</command>
-    <result xml:space="preserve">room5&#x000A;You can see a lockedDoor here.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">room5&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-225"/>
+      <child nodeId="node-128"/>
     </children>
   </item>
-  <item nodeId="node-225">
+  <item nodeId="node-128">
+    <command xml:space="preserve">restart</command>
+    <result xml:space="preserve">Are you sure you want to restart?</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-129"/>
+    </children>
+  </item>
+  <item nodeId="node-129">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">Please answer yes or no.&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-130"/>
+    </children>
+  </item>
+  <item nodeId="node-130">
+    <command xml:space="preserve">yes</command>
+    <result xml:space="preserve">lab1&#x000A;An Interactive Fiction by ktaschek&#x000A;Release 1 / Serial number 250411 / Inform 7 v10.1.2 / D&#x000A;&#x000A;room1&#x000A;You can see a board here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-131"/>
+    </children>
+  </item>
+  <item nodeId="node-131">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">room2&#x000A;You can see a lever here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-132"/>
+    </children>
+  </item>
+  <item nodeId="node-132">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">room3&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-133"/>
+    </children>
+  </item>
+  <item nodeId="node-133">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">room5&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-134"/>
+    </children>
+  </item>
+  <item nodeId="node-134">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-135">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">room1&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-136"/>
+    </children>
+  </item>
+  <item nodeId="node-136">
+    <command xml:space="preserve">sanity down</command>
+    <result xml:space="preserve">Your mind trembles.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-137"/>
+    </children>
+  </item>
+  <item nodeId="node-137">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">room2&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-138"/>
+    </children>
+  </item>
+  <item nodeId="node-138">
     <command xml:space="preserve">l</command>
-    <result xml:space="preserve">room5&#x000A;You can see a lockedDoor here.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">room2&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-226"/>
+      <child nodeId="node-139"/>
     </children>
   </item>
-  <item nodeId="node-226">
-    <command xml:space="preserve">l</command>
-    <result xml:space="preserve">room5&#x000A;You can see a lockedDoor here.&#x000A;&#x000A;&gt;</result>
+  <item nodeId="node-139">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">room1&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-227"/>
+      <child nodeId="node-140"/>
     </children>
   </item>
-  <item nodeId="node-227">
-    <command xml:space="preserve">z</command>
-    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
+  <item nodeId="node-140">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">room2&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-228"/>
+      <child nodeId="node-141"/>
     </children>
   </item>
-  <item nodeId="node-228">
-    <command xml:space="preserve">z</command>
-    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
+  <item nodeId="node-141">
+    <command xml:space="preserve">sanity down</command>
+    <result xml:space="preserve">Your mind trembles.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-142">
+    <command xml:space="preserve">sanity up</command>
+    <result xml:space="preserve">You feel more composed.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-229"/>
+      <child nodeId="node-143"/>
     </children>
   </item>
-  <item nodeId="node-229">
-    <command xml:space="preserve">z</command>
-    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
+  <item nodeId="node-143">
+    <command xml:space="preserve">sanity down</command>
+    <result xml:space="preserve">Your mind trembles.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-230"/>
+      <child nodeId="node-144"/>
     </children>
   </item>
-  <item nodeId="node-230">
-    <command xml:space="preserve">z</command>
-    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
+  <item nodeId="node-144">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Something feels off as you step into the room1.&#x000A;&#x000A;room1&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-231"/>
+      <child nodeId="node-145"/>
     </children>
   </item>
-  <item nodeId="node-231">
-    <command xml:space="preserve">z</command>
-    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
+  <item nodeId="node-145">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Something feels off as you step into the room2.&#x000A;&#x000A;room2&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
-  <item nodeId="node-249">
-    <command xml:space="preserve">z</command>
-    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-250"/>
-    </children>
-  </item>
-  <item nodeId="node-250">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+  <item nodeId="node-287">
+    <command xml:space="preserve">open door</command>
+    <result xml:space="preserve">A disembodied, stern voice whispers: "Do not open that door!"&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-251"/>
+      <child nodeId="node-288"/>
     </children>
   </item>
-  <item nodeId="node-251">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+  <item nodeId="node-288">
+    <command xml:space="preserve">open door</command>
+    <result xml:space="preserve">A disembodied, stern voice whispers: "Do not open that door!"&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-252"/>
+      <child nodeId="node-289"/>
     </children>
   </item>
-  <item nodeId="node-252">
-    <command xml:space="preserve">z</command>
-    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
+  <item nodeId="node-289">
+    <command xml:space="preserve">take board</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-253"/>
+      <child nodeId="node-290"/>
     </children>
   </item>
-  <item nodeId="node-253">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+  <item nodeId="node-290">
+    <command xml:space="preserve">board up door</command>
+    <result xml:space="preserve">You firmly nail the board to the Iron Door, reinforcing it and buying yourself extra time.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-254"/>
+      <child nodeId="node-291"/>
     </children>
   </item>
-  <item nodeId="node-254">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+  <item nodeId="node-291">
+    <command xml:space="preserve">take board</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-255"/>
+      <child nodeId="node-292"/>
     </children>
   </item>
-  <item nodeId="node-255">
-    <command xml:space="preserve">z</command>
-    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
+  <item nodeId="node-292">
+    <command xml:space="preserve">open door</command>
+    <result xml:space="preserve">The Iron Door is nailed shut&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-146">
+    <command xml:space="preserve">sanity down</command>
+    <result xml:space="preserve">Your mind trembles.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-256"/>
+      <child nodeId="node-147"/>
     </children>
   </item>
-  <item nodeId="node-256">
-    <command xml:space="preserve">z</command>
-    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
+  <item nodeId="node-147">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Something feels off as you step into the room2.&#x000A;&#x000A;room2&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-257"/>
+      <child nodeId="node-148"/>
     </children>
   </item>
-  <item nodeId="node-257">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+  <item nodeId="node-148">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Something feels off as you step into the room1.&#x000A;&#x000A;room1&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-258"/>
+      <child nodeId="node-149"/>
     </children>
   </item>
-  <item nodeId="node-258">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+  <item nodeId="node-149">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">room2&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-259"/>
+      <child nodeId="node-150"/>
     </children>
   </item>
-  <item nodeId="node-259">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+  <item nodeId="node-150">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">room1&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-260"/>
+      <child nodeId="node-151"/>
     </children>
   </item>
-  <item nodeId="node-260">
-    <command xml:space="preserve">z</command>
-    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
+  <item nodeId="node-151">
+    <command xml:space="preserve">check sanity</command>
+    <result xml:space="preserve">Sanity Level: 1&#x000A;Current Location: room1&#x000A;Current Room Sanity: 1&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-261"/>
+      <child nodeId="node-152"/>
     </children>
   </item>
-  <item nodeId="node-261">
-    <command xml:space="preserve">z</command>
-    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
+  <item nodeId="node-152">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">room2&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-262"/>
+      <child nodeId="node-153"/>
     </children>
   </item>
-  <item nodeId="node-262">
-    <command xml:space="preserve">z</command>
-    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
+  <item nodeId="node-153">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">room1&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-285">
+    <command xml:space="preserve">take board</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-263"/>
+      <child nodeId="node-286"/>
     </children>
   </item>
-  <item nodeId="node-263">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+  <item nodeId="node-286">
+    <command xml:space="preserve">open door</command>
+    <result xml:space="preserve">You open the Iron Door.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
-    <children>
-      <child nodeId="node-264"/>
-    </children>
-  </item>
-  <item nodeId="node-264">
-    <command xml:space="preserve">z</command>
-    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-265"/>
-    </children>
-  </item>
-  <item nodeId="node-265">
-    <command xml:space="preserve">z</command>
-    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-266"/>
-    </children>
   </item>
   <item nodeId="node-266">
-    <command xml:space="preserve">z</command>
-    <result xml:space="preserve">Time passes.&#x000A;&#x000A;A distant click echoes as you notice the boarded door creak open...&#x000A;&#x000A;The hunter looms ominously. You have 4 turns left before he strikes!&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">take knife</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
       <child nodeId="node-267"/>
+      <child nodeId="node-296"/>
+      <child nodeId="node-269"/>
     </children>
   </item>
   <item nodeId="node-267">
-    <command xml:space="preserve">z</command>
-    <result xml:space="preserve">Time passes.&#x000A;&#x000A;The hunter looms ominously. You have 3 turns left before he strikes!&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">hit myself</command>
+    <result xml:space="preserve">Violence isn't the answer to this one.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1951,17 +1522,20 @@
     </children>
   </item>
   <item nodeId="node-268">
-    <command xml:space="preserve">z</command>
-    <result xml:space="preserve">Time passes.&#x000A;&#x000A;The hunter looms ominously. You have 2 turns left before he strikes!&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">hit myself with the knife</command>
+    <result xml:space="preserve">I only understood you as far as wanting to hit yourself.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
-    <children>
-      <child nodeId="node-269"/>
-    </children>
+  </item>
+  <item nodeId="node-296">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Everything seems normal, and the room is as you would expect it to be.&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
   </item>
   <item nodeId="node-269">
-    <command xml:space="preserve">z</command>
-    <result xml:space="preserve">Time passes.&#x000A;&#x000A;The hunter looms ominously. You have 1 turn left before he strikes!&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">stab </command>
+    <result xml:space="preserve">(yourself)&#x000A;Violence isn't the answer to this one.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1969,14 +1543,221 @@
     </children>
   </item>
   <item nodeId="node-270">
+    <command xml:space="preserve">stab myself with knife</command>
+    <result xml:space="preserve">&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-271"/>
+    </children>
+  </item>
+  <item nodeId="node-271">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">room1&#x000A;You can see a board here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-272"/>
+    </children>
+  </item>
+  <item nodeId="node-272">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-273"/>
+    </children>
+  </item>
+  <item nodeId="node-273">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-274"/>
+    </children>
+  </item>
+  <item nodeId="node-274">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-275"/>
+    </children>
+  </item>
+  <item nodeId="node-275">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-276"/>
+    </children>
+  </item>
+  <item nodeId="node-276">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-277"/>
+    </children>
+  </item>
+  <item nodeId="node-277">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-278"/>
+    </children>
+  </item>
+  <item nodeId="node-278">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-279"/>
+    </children>
+  </item>
+  <item nodeId="node-279">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-280"/>
+    </children>
+  </item>
+  <item nodeId="node-280">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;A distant click echoes as you notice the boarded door creak open...&#x000A;&#x000A;The hunter looms ominously. You have 4 turns left before he strikes!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-281"/>
+    </children>
+  </item>
+  <item nodeId="node-281">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;The hunter looms ominously. You have 3 turns left before he strikes!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-282"/>
+    </children>
+  </item>
+  <item nodeId="node-282">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;The hunter looms ominously. You have 2 turns left before he strikes!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-283"/>
+    </children>
+  </item>
+  <item nodeId="node-283">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;The hunter looms ominously. You have 1 turn left before he strikes!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-284"/>
+    </children>
+  </item>
+  <item nodeId="node-284">
     <command xml:space="preserve">z</command>
     <result xml:space="preserve">Time passes.&#x000A;&#x000A;The hunter looms ominously. You have 0 turns left before he strikes!&#x000A;Before you can act, the hunter pounces-your fate is sealed!&#x000A;&#x000A;&#x000A;&#x000A;    *** The End ***&#x000A;&#x000A;&#x000A;&#x000A;&#x000A;Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
-  <item nodeId="node-161">
+  <item nodeId="node-154">
     <command xml:space="preserve">z</command>
     <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-300"/>
+      <child nodeId="node-155"/>
+    </children>
+  </item>
+  <item nodeId="node-300">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Everything seems normal, and the room is as you would expect it to be.&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-301"/>
+    </children>
+  </item>
+  <item nodeId="node-301">
+    <command xml:space="preserve">take</command>
+    <result xml:space="preserve">What do you want to take?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-155">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-156"/>
+      <child nodeId="node-224"/>
+    </children>
+  </item>
+  <item nodeId="node-156">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-157"/>
+      <child nodeId="node-202"/>
+    </children>
+  </item>
+  <item nodeId="node-157">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-158"/>
+    </children>
+  </item>
+  <item nodeId="node-158">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-159"/>
+    </children>
+  </item>
+  <item nodeId="node-159">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-160"/>
+    </children>
+  </item>
+  <item nodeId="node-160">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-161"/>
+    </children>
+  </item>
+  <item nodeId="node-161">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2002,18 +1783,17 @@
     </children>
   </item>
   <item nodeId="node-164">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
       <child nodeId="node-165"/>
-      <child nodeId="node-232"/>
     </children>
   </item>
   <item nodeId="node-165">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2021,8 +1801,8 @@
     </children>
   </item>
   <item nodeId="node-166">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2067,7 +1847,7 @@
   </item>
   <item nodeId="node-171">
     <command xml:space="preserve">z</command>
-    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;A distant click echoes as you notice the boarded door creak open...&#x000A;&#x000A;The hunter looms ominously. You have 4 turns left before he strikes!&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2076,7 +1856,7 @@
   </item>
   <item nodeId="node-172">
     <command xml:space="preserve">z</command>
-    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;The hunter looms ominously. You have 3 turns left before he strikes!&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2084,8 +1864,8 @@
     </children>
   </item>
   <item nodeId="node-173">
-    <command xml:space="preserve">z</command>
-    <result xml:space="preserve">Time passes.&#x000A;&#x000A;A distant click echoes as you notice the boarded door creak open...&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2094,7 +1874,7 @@
   </item>
   <item nodeId="node-174">
     <command xml:space="preserve">z</command>
-    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;The hunter looms ominously. You have 2 turns left before he strikes!&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2103,7 +1883,7 @@
   </item>
   <item nodeId="node-175">
     <command xml:space="preserve">z</command>
-    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;The hunter looms ominously. You have 1 turn left before he strikes!&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2112,7 +1892,7 @@
   </item>
   <item nodeId="node-176">
     <command xml:space="preserve">z</command>
-    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;The hunter looms ominously. You have 0 turns left before he strikes!&#x000A;Before you can act, the hunter pounces-your fate is sealed!&#x000A;&#x000A;&#x000A;&#x000A;    *** The End ***&#x000A;&#x000A;&#x000A;&#x000A;&#x000A;Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2120,8 +1900,8 @@
     </children>
   </item>
   <item nodeId="node-177">
-    <command xml:space="preserve">z</command>
-    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">restart</command>
+    <result xml:space="preserve">lab1&#x000A;An Interactive Fiction by ktaschek&#x000A;Release 1 / Serial number 250411 / Inform 7 v10.1.2 / D&#x000A;&#x000A;room1&#x000A;You can see a board here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2147,8 +1927,8 @@
     </children>
   </item>
   <item nodeId="node-180">
-    <command xml:space="preserve">z</command>
-    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">room2&#x000A;You can see a lever here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2156,8 +1936,8 @@
     </children>
   </item>
   <item nodeId="node-181">
-    <command xml:space="preserve">z</command>
-    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">pick up lever</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2165,8 +1945,8 @@
     </children>
   </item>
   <item nodeId="node-182">
-    <command xml:space="preserve">z</command>
-    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">room3&#x000A;You can see a lockedDoor here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2174,8 +1954,8 @@
     </children>
   </item>
   <item nodeId="node-183">
-    <command xml:space="preserve">z</command>
-    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">room4&#x000A;You can see a wire A, a wire B, a wire C and a socket here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2183,8 +1963,8 @@
     </children>
   </item>
   <item nodeId="node-184">
-    <command xml:space="preserve">z</command>
-    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">connect a</command>
+    <result xml:space="preserve">(the wire A)&#x000A;You connect the wire A.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2192,10 +1972,422 @@
     </children>
   </item>
   <item nodeId="node-185">
+    <command xml:space="preserve">connect c</command>
+    <result xml:space="preserve">You connect the wire C.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-186"/>
+    </children>
+  </item>
+  <item nodeId="node-186">
+    <command xml:space="preserve">connect b</command>
+    <result xml:space="preserve">You connect the wire B.&#x000A;A satisfying click sounds as the wires align perfectly.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-187"/>
+    </children>
+  </item>
+  <item nodeId="node-187">
+    <command xml:space="preserve">attach lever</command>
+    <result xml:space="preserve">The lever latches into place&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-188"/>
+    </children>
+  </item>
+  <item nodeId="node-188">
+    <command xml:space="preserve">pull lever</command>
+    <result xml:space="preserve">You pull the lever and the mechanism hums to life. The wires glow with energy. You here something unlock&#x000A;Nothing obvious happens.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-189"/>
+    </children>
+  </item>
+  <item nodeId="node-189">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">room3&#x000A;You can see a lockedDoor here.&#x000A;&#x000A;A distant click echoes as you notice the boarded door creak open...&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-190"/>
+    </children>
+  </item>
+  <item nodeId="node-190">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;The hunter arrives from the west.&#x000A;&#x000A;The hunter looms ominously. You have 4 turns left before he strikes!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-191"/>
+    </children>
+  </item>
+  <item nodeId="node-191">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">room3&#x000A;You can see a hunter and a lockedDoor here.&#x000A;&#x000A;The hunter looms ominously. You have 3 turns left before he strikes!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-192"/>
+    </children>
+  </item>
+  <item nodeId="node-192">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">room3&#x000A;You can see a hunter and a lockedDoor here.&#x000A;&#x000A;The hunter looms ominously. You have 2 turns left before he strikes!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-193"/>
+    </children>
+  </item>
+  <item nodeId="node-193">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">(first opening the lockedDoor)&#x000A;&#x000A;room5&#x000A;You can see a lockedDoor here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-194"/>
+    </children>
+  </item>
+  <item nodeId="node-194">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">room5&#x000A;You can see a lockedDoor here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-195"/>
+    </children>
+  </item>
+  <item nodeId="node-195">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">room5&#x000A;You can see a lockedDoor here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-196"/>
+    </children>
+  </item>
+  <item nodeId="node-196">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">room5&#x000A;You can see a lockedDoor here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-197"/>
+    </children>
+  </item>
+  <item nodeId="node-197">
     <command xml:space="preserve">z</command>
     <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
+    <children>
+      <child nodeId="node-198"/>
+    </children>
+  </item>
+  <item nodeId="node-198">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-199"/>
+    </children>
+  </item>
+  <item nodeId="node-199">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-200"/>
+    </children>
+  </item>
+  <item nodeId="node-200">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-201"/>
+    </children>
+  </item>
+  <item nodeId="node-201">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-202">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-203"/>
+    </children>
+  </item>
+  <item nodeId="node-203">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-204"/>
+    </children>
+  </item>
+  <item nodeId="node-204">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-205"/>
+    </children>
+  </item>
+  <item nodeId="node-205">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-206"/>
+    </children>
+  </item>
+  <item nodeId="node-206">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-207"/>
+    </children>
+  </item>
+  <item nodeId="node-207">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-208"/>
+    </children>
+  </item>
+  <item nodeId="node-208">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-209"/>
+    </children>
+  </item>
+  <item nodeId="node-209">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-210"/>
+    </children>
+  </item>
+  <item nodeId="node-210">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-211"/>
+    </children>
+  </item>
+  <item nodeId="node-211">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-212"/>
+    </children>
+  </item>
+  <item nodeId="node-212">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-213"/>
+    </children>
+  </item>
+  <item nodeId="node-213">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-214"/>
+    </children>
+  </item>
+  <item nodeId="node-214">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-215"/>
+    </children>
+  </item>
+  <item nodeId="node-215">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-216"/>
+    </children>
+  </item>
+  <item nodeId="node-216">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-217"/>
+    </children>
+  </item>
+  <item nodeId="node-217">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-218"/>
+    </children>
+  </item>
+  <item nodeId="node-218">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-219"/>
+    </children>
+  </item>
+  <item nodeId="node-219">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;A distant click echoes as you notice the boarded door creak open...&#x000A;&#x000A;The hunter looms ominously. You have 4 turns left before he strikes!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-220"/>
+    </children>
+  </item>
+  <item nodeId="node-220">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;The hunter looms ominously. You have 3 turns left before he strikes!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-221"/>
+    </children>
+  </item>
+  <item nodeId="node-221">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;The hunter looms ominously. You have 2 turns left before he strikes!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-222"/>
+    </children>
+  </item>
+  <item nodeId="node-222">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;The hunter looms ominously. You have 1 turn left before he strikes!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-223"/>
+    </children>
+  </item>
+  <item nodeId="node-223">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;The hunter looms ominously. You have 0 turns left before he strikes!&#x000A;Before you can act, the hunter pounces-your fate is sealed!&#x000A;&#x000A;&#x000A;&#x000A;    *** The End ***&#x000A;&#x000A;&#x000A;&#x000A;&#x000A;Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-224">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-225"/>
+    </children>
+  </item>
+  <item nodeId="node-225">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-226"/>
+    </children>
+  </item>
+  <item nodeId="node-226">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-227"/>
+    </children>
+  </item>
+  <item nodeId="node-227">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-228"/>
+      <child nodeId="node-249"/>
+    </children>
+  </item>
+  <item nodeId="node-228">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-229"/>
+    </children>
+  </item>
+  <item nodeId="node-229">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-230"/>
+    </children>
+  </item>
+  <item nodeId="node-230">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-231"/>
+    </children>
+  </item>
+  <item nodeId="node-231">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-232"/>
+    </children>
   </item>
   <item nodeId="node-232">
     <command xml:space="preserve">z</command>
@@ -2207,8 +2399,8 @@
     </children>
   </item>
   <item nodeId="node-233">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2225,8 +2417,8 @@
     </children>
   </item>
   <item nodeId="node-235">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2235,7 +2427,7 @@
   </item>
   <item nodeId="node-236">
     <command xml:space="preserve">z</command>
-    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;A distant click echoes as you notice the boarded door creak open...&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2243,8 +2435,8 @@
     </children>
   </item>
   <item nodeId="node-237">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2261,8 +2453,8 @@
     </children>
   </item>
   <item nodeId="node-239">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2270,8 +2462,8 @@
     </children>
   </item>
   <item nodeId="node-240">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2279,8 +2471,8 @@
     </children>
   </item>
   <item nodeId="node-241">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2307,7 +2499,7 @@
   </item>
   <item nodeId="node-244">
     <command xml:space="preserve">z</command>
-    <result xml:space="preserve">Time passes.&#x000A;&#x000A;A distant click echoes as you notice the boarded door creak open...&#x000A;&#x000A;The hunter looms ominously. You have 4 turns left before he strikes!&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2316,7 +2508,7 @@
   </item>
   <item nodeId="node-245">
     <command xml:space="preserve">z</command>
-    <result xml:space="preserve">Time passes.&#x000A;&#x000A;The hunter looms ominously. You have 3 turns left before he strikes!&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2324,8 +2516,8 @@
     </children>
   </item>
   <item nodeId="node-246">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">room2&#x000A;You can see a lever here.&#x000A;&#x000A;The hunter arrives from the south.&#x000A;&#x000A;The hunter looms ominously. You have 2 turns left before he strikes!&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2334,7 +2526,7 @@
   </item>
   <item nodeId="node-247">
     <command xml:space="preserve">z</command>
-    <result xml:space="preserve">Time passes.&#x000A;&#x000A;The hunter looms ominously. You have 1 turn left before he strikes!&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2342,6 +2534,156 @@
     </children>
   </item>
   <item nodeId="node-248">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-249">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-250"/>
+    </children>
+  </item>
+  <item nodeId="node-250">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-251"/>
+    </children>
+  </item>
+  <item nodeId="node-251">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-252"/>
+    </children>
+  </item>
+  <item nodeId="node-252">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-253"/>
+    </children>
+  </item>
+  <item nodeId="node-253">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-254"/>
+    </children>
+  </item>
+  <item nodeId="node-254">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-255"/>
+    </children>
+  </item>
+  <item nodeId="node-255">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-256"/>
+    </children>
+  </item>
+  <item nodeId="node-256">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-257"/>
+    </children>
+  </item>
+  <item nodeId="node-257">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-258"/>
+    </children>
+  </item>
+  <item nodeId="node-258">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-259"/>
+    </children>
+  </item>
+  <item nodeId="node-259">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-260"/>
+    </children>
+  </item>
+  <item nodeId="node-260">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-261"/>
+    </children>
+  </item>
+  <item nodeId="node-261">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;A distant click echoes as you notice the boarded door creak open...&#x000A;&#x000A;The hunter looms ominously. You have 4 turns left before he strikes!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-262"/>
+    </children>
+  </item>
+  <item nodeId="node-262">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;The hunter looms ominously. You have 3 turns left before he strikes!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-263"/>
+    </children>
+  </item>
+  <item nodeId="node-263">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">room2&#x000A;You can see a lever here.&#x000A;&#x000A;The hunter arrives from the south.&#x000A;&#x000A;The hunter looms ominously. You have 2 turns left before he strikes!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-264"/>
+    </children>
+  </item>
+  <item nodeId="node-264">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;The hunter looms ominously. You have 1 turn left before he strikes!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-265"/>
+    </children>
+  </item>
+  <item nodeId="node-265">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">room3&#x000A;You can see a lockedDoor here.&#x000A;&#x000A;The hunter arrives from the west.&#x000A;&#x000A;The hunter looms ominously. You have 0 turns left before he strikes!&#x000A;Before you can act, the hunter pounces-your fate is sealed!&#x000A;&#x000A;&#x000A;&#x000A;    *** The End ***&#x000A;&#x000A;&#x000A;&#x000A;&#x000A;Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
