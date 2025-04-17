@@ -14,6 +14,7 @@
       <child nodeId="node-428"/>
       <child nodeId="node-436"/>
       <child nodeId="node-438"/>
+      <child nodeId="node-623"/>
       <child nodeId="node-458"/>
     </children>
   </item>
@@ -548,16 +549,18 @@
   </item>
   <item nodeId="node-329">
     <command xml:space="preserve">n</command>
-    <result xml:space="preserve">room2&#x000A;You can see a lever here.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">A whispers tells you "look ..."&#x000A;&#x000A;You try to get up, but your legs betray you. In an instant you collapse back onto the floor-the impact jostles your head. The world seems to shift, as if seen through unfamiliar eyes.&#x000A;everything feels fuzzy, but as your headache softens, you notice everything seems off&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
       <child nodeId="node-330"/>
       <child nodeId="node-334"/>
       <child nodeId="node-344"/>
+      <child nodeId="node-617"/>
       <child nodeId="node-391"/>
       <child nodeId="node-411"/>
       <child nodeId="node-418"/>
+      <child nodeId="node-594"/>
     </children>
   </item>
   <item nodeId="node-330">
@@ -682,7 +685,7 @@
   </item>
   <item nodeId="node-344">
     <command xml:space="preserve">e</command>
-    <result xml:space="preserve">room3&#x000A;You can see a lockedDoor here.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">Something feels off as you step into the room3.&#x000A;&#x000A;room3&#x000A;&#x000A;The room appears distorted and hazy, as though viewed through a fog of uncertainty.&#x000A;You can see a lockedDoor here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -693,7 +696,7 @@
   </item>
   <item nodeId="node-345">
     <command xml:space="preserve">e</command>
-    <result xml:space="preserve">(first opening the lockedDoor)&#x000A;It seems to be locked.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">(first opening the lockedDoor)&#x000A;It seems to be locked.&#x000A;&#x000A;"You look pale," the doctor murmurs. "How are you holding up?"&#x000A;your head starts cloudy and your headache worsens, but things seem more normal&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -984,11 +987,12 @@
   </item>
   <item nodeId="node-378">
     <command xml:space="preserve">w</command>
-    <result xml:space="preserve">room2&#x000A;You can see a lever here.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">Something feels off as you step into the room2.&#x000A;&#x000A;room2&#x000A;&#x000A;The room appears distorted and hazy, as though viewed through a fog of uncertainty.&#x000A;You can see a lever here.&#x000A;&#x000A;"You look pale," the doctor murmurs. "How are you holding up?"&#x000A;your head starts cloudy and your headache worsens, but things seem more normal&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
       <child nodeId="node-379"/>
+      <child nodeId="node-606"/>
     </children>
   </item>
   <item nodeId="node-379">
@@ -1093,6 +1097,153 @@
   <item nodeId="node-390">
     <command xml:space="preserve">lay down on altar</command>
     <result xml:space="preserve">*** The End ***&#x000A;&#x000A;&#x000A;&#x000A;&#x000A;Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-606">
+    <command xml:space="preserve">take lever</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-607"/>
+    </children>
+  </item>
+  <item nodeId="node-607">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Something feels off as you step into the room3.&#x000A;&#x000A;room3&#x000A;&#x000A;Everything seems normal, and the room is as you would expect it to be.&#x000A;You can see a lockedDoor here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-608"/>
+    </children>
+  </item>
+  <item nodeId="node-608">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">room4&#x000A;&#x000A;Everything seems normal, and the room is as you would expect it to be.&#x000A;You can see a wire A, a wire B, a wire C and a socket here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-609"/>
+    </children>
+  </item>
+  <item nodeId="node-609">
+    <command xml:space="preserve">connect a</command>
+    <result xml:space="preserve">(the wire A)&#x000A;You connect the wire A.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-610"/>
+    </children>
+  </item>
+  <item nodeId="node-610">
+    <command xml:space="preserve">connect c</command>
+    <result xml:space="preserve">You connect the wire C.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-611"/>
+    </children>
+  </item>
+  <item nodeId="node-611">
+    <command xml:space="preserve">connect b</command>
+    <result xml:space="preserve">You connect the wire B.&#x000A;A satisfying click sounds as the wires align perfectly.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-612"/>
+    </children>
+  </item>
+  <item nodeId="node-612">
+    <command xml:space="preserve">attach lever</command>
+    <result xml:space="preserve">The lever latches into place&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-613"/>
+    </children>
+  </item>
+  <item nodeId="node-613">
+    <command xml:space="preserve">pull lever</command>
+    <result xml:space="preserve">You pull the lever and the mechanism hums to life. The wires glow with energy. You here something unlock&#x000A;Nothing obvious happens.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-614"/>
+    </children>
+  </item>
+  <item nodeId="node-614">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">room3&#x000A;&#x000A;Everything seems normal, and the room is as you would expect it to be.&#x000A;You can see a lockedDoor here.&#x000A;&#x000A;A distant bang echoes, ringing your ears as the a shotgun blast followed by the clanging of a door falling permeates through the area. Your head is somehow less foggy&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-615"/>
+    </children>
+  </item>
+  <item nodeId="node-615">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">(first opening the lockedDoor)&#x000A;&#x000A;room5&#x000A;&#x000A;Everything seems normal, and the room is as you would expect it to be.&#x000A;You can see a lockedDoor, a doctor and an altar here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-616"/>
+    </children>
+  </item>
+  <item nodeId="node-616">
+    <command xml:space="preserve">talk to doctor</command>
+    <result xml:space="preserve">&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-617">
+    <command xml:space="preserve">e\</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-618"/>
+    </children>
+  </item>
+  <item nodeId="node-618">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">"Have you seen the painting" the voice whispers&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-619"/>
+    </children>
+  </item>
+  <item nodeId="node-619">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Something feels off as you step into the room2.&#x000A;&#x000A;room2&#x000A;&#x000A;The room appears distorted and hazy, as though viewed through a fog of uncertainty.&#x000A;You can see a lever here.&#x000A;&#x000A;"You look pale," the doctor murmurs. "How are you holding up?"&#x000A;your head starts cloudy and your headache worsens, but things seem more normal&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-620"/>
+    </children>
+  </item>
+  <item nodeId="node-620">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">room3&#x000A;&#x000A;Everything seems normal, and the room is as you would expect it to be.&#x000A;You can see a lockedDoor here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-621"/>
+    </children>
+  </item>
+  <item nodeId="node-621">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">room4&#x000A;&#x000A;Everything seems normal, and the room is as you would expect it to be.&#x000A;You can see a wire A, a wire B, a wire C and a socket here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-622"/>
+    </children>
+  </item>
+  <item nodeId="node-622">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">room3&#x000A;&#x000A;Everything seems normal, and the room is as you would expect it to be.&#x000A;You can see a lockedDoor here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
@@ -1366,6 +1517,111 @@
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
+  <item nodeId="node-594">
+    <command xml:space="preserve">take lever</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-595"/>
+    </children>
+  </item>
+  <item nodeId="node-595">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">"Have you seen the painting" the voice whispers&#x000A;"You look pale," the doctor murmurs. "How are you holding up?"&#x000A;your head starts cloudy and your headache worsens, but things seem more normal&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-596"/>
+    </children>
+  </item>
+  <item nodeId="node-596">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">room4&#x000A;&#x000A;Everything seems normal, and the room is as you would expect it to be.&#x000A;You can see a wire A, a wire B, a wire C and a socket here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-597"/>
+    </children>
+  </item>
+  <item nodeId="node-597">
+    <command xml:space="preserve">connect a</command>
+    <result xml:space="preserve">(the wire A)&#x000A;You connect the wire A.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-598"/>
+    </children>
+  </item>
+  <item nodeId="node-598">
+    <command xml:space="preserve">connect c</command>
+    <result xml:space="preserve">You connect the wire C.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-599"/>
+    </children>
+  </item>
+  <item nodeId="node-599">
+    <command xml:space="preserve">connect b</command>
+    <result xml:space="preserve">You connect the wire B.&#x000A;A satisfying click sounds as the wires align perfectly.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-600"/>
+    </children>
+  </item>
+  <item nodeId="node-600">
+    <command xml:space="preserve">attach lever</command>
+    <result xml:space="preserve">The lever latches into place&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-601"/>
+    </children>
+  </item>
+  <item nodeId="node-601">
+    <command xml:space="preserve">pull lever</command>
+    <result xml:space="preserve">You pull the lever and the mechanism hums to life. The wires glow with energy. You here something unlock&#x000A;Nothing obvious happens.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-602"/>
+    </children>
+  </item>
+  <item nodeId="node-602">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">room3&#x000A;&#x000A;Everything seems normal, and the room is as you would expect it to be.&#x000A;You can see a lockedDoor here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-603"/>
+    </children>
+  </item>
+  <item nodeId="node-603">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">(first opening the lockedDoor)&#x000A;With a heavy **clang**, the Steel Gate swings shut and locks itself automatically, rattling your head.&#x000A;everything feels fuzzy, but as your headache softens, you notice everything seems off&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-604"/>
+    </children>
+  </item>
+  <item nodeId="node-604">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">(first opening the lockedDoor)&#x000A;It seems to be locked.&#x000A;&#x000A;A distant bang echoes, ringing your ears as the a shotgun blast followed by the clanging of a door falling permeates through the area. Your head is somehow less foggy&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-605"/>
+    </children>
+  </item>
+  <item nodeId="node-605">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">room5&#x000A;&#x000A;Everything seems normal, and the room is as you would expect it to be.&#x000A;You can see a lockedDoor, a doctor and an altar here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
   <item nodeId="node-422">
     <command xml:space="preserve">open door</command>
     <result xml:space="preserve">A disembodied, stern voice whispers: "Do not open that door!"&#x000A;&#x000A;&gt;</result>
@@ -1503,13 +1759,14 @@
   </item>
   <item nodeId="node-438">
     <command xml:space="preserve">take knife</command>
-    <result xml:space="preserve">Taken.&#x000A;&#x000A;You try to get up, but your legs betray you. In an instant you collapse back onto the floor-the impact jostles your head. The world seems to shift, as if seen through unfamiliar eyes.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;You try to get up, but your legs betray you. In an instant you collapse back onto the floor-the impact jostles your head. The world seems to shift, as if seen through unfamiliar eyes.&#x000A;everything feels fuzzy, but as your headache softens, you notice everything seems off&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
       <child nodeId="node-572"/>
       <child nodeId="node-439"/>
       <child nodeId="node-441"/>
+      <child nodeId="node-574"/>
       <child nodeId="node-442"/>
     </children>
   </item>
@@ -1546,6 +1803,183 @@
   <item nodeId="node-441">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">Everything seems normal, and the room is as you would expect it to be.&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-574">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Something feels off as you step into the room2.&#x000A;&#x000A;room2&#x000A;&#x000A;The room appears distorted and hazy, as though viewed through a fog of uncertainty.&#x000A;You can see a lever here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-575"/>
+    </children>
+  </item>
+  <item nodeId="node-575">
+    <command xml:space="preserve">take lever</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;"You look pale," the doctor murmurs. "How are you holding up?"&#x000A;your head starts cloudy and your headache worsens, but things seem more normal&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-576"/>
+    </children>
+  </item>
+  <item nodeId="node-576">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-577"/>
+    </children>
+  </item>
+  <item nodeId="node-577">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">room3&#x000A;&#x000A;Everything seems normal, and the room is as you would expect it to be.&#x000A;You can see a lockedDoor here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-578"/>
+    </children>
+  </item>
+  <item nodeId="node-578">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-579"/>
+    </children>
+  </item>
+  <item nodeId="node-579">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">room4&#x000A;&#x000A;Everything seems normal, and the room is as you would expect it to be.&#x000A;You can see a wire A, a wire B, a wire C and a socket here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-580"/>
+    </children>
+  </item>
+  <item nodeId="node-580">
+    <command xml:space="preserve">connect a</command>
+    <result xml:space="preserve">(the wire A)&#x000A;You connect the wire A.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-581"/>
+    </children>
+  </item>
+  <item nodeId="node-581">
+    <command xml:space="preserve">connect b</command>
+    <result xml:space="preserve">You connect the wire B.&#x000A;Sparks fly as the connections fizzle out! The wires reset.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-582"/>
+    </children>
+  </item>
+  <item nodeId="node-582">
+    <command xml:space="preserve">connect a</command>
+    <result xml:space="preserve">(the wire A)&#x000A;You connect the wire A.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-583"/>
+    </children>
+  </item>
+  <item nodeId="node-583">
+    <command xml:space="preserve">connect c</command>
+    <result xml:space="preserve">You connect the wire C.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-584"/>
+    </children>
+  </item>
+  <item nodeId="node-584">
+    <command xml:space="preserve">connect b</command>
+    <result xml:space="preserve">You connect the wire B.&#x000A;A satisfying click sounds as the wires align perfectly.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-585"/>
+    </children>
+  </item>
+  <item nodeId="node-585">
+    <command xml:space="preserve">attach lever</command>
+    <result xml:space="preserve">The lever latches into place&#x000A;A distant bang echoes, ringing your ears as the a shotgun blast followed by the clanging of a door falling permeates through the area. Your head is somehow less foggy&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-586"/>
+    </children>
+  </item>
+  <item nodeId="node-586">
+    <command xml:space="preserve">pull lever</command>
+    <result xml:space="preserve">You pull the lever and the mechanism hums to life. The wires glow with energy. You here something unlock&#x000A;Nothing obvious happens.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-587"/>
+    </children>
+  </item>
+  <item nodeId="node-587">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">room3&#x000A;&#x000A;Everything seems normal, and the room is as you would expect it to be.&#x000A;You can see a hunter and a lockedDoor here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-588"/>
+    </children>
+  </item>
+  <item nodeId="node-588">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">room3&#x000A;&#x000A;Everything seems normal, and the room is as you would expect it to be.&#x000A;You can see a hunter and a lockedDoor here.&#x000A;&#x000A;The hunter looms ominously. You have 4 turns left before he strikes!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-589"/>
+    </children>
+  </item>
+  <item nodeId="node-589">
+    <command xml:space="preserve">talk to hunter</command>
+    <result xml:space="preserve">"Be careful out here-wolves have been spotted," the hunter warns.&#x000A;&#x000A;The hunter looms ominously. You have 3 turns left before he strikes!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-590"/>
+    </children>
+  </item>
+  <item nodeId="node-590">
+    <command xml:space="preserve">talk to hunter</command>
+    <result xml:space="preserve">"You look like you could use some provisions. I've got extra arrows," he offers.&#x000A;&#x000A;The hunter looms ominously. You have 2 turns left before he strikes!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-591"/>
+    </children>
+  </item>
+  <item nodeId="node-591">
+    <command xml:space="preserve">open door</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-592"/>
+    </children>
+  </item>
+  <item nodeId="node-592">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">(first opening the lockedDoor)&#x000A;&#x000A;room5&#x000A;&#x000A;Everything seems normal, and the room is as you would expect it to be.&#x000A;You can see a lockedDoor, a doctor and an altar here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-593"/>
+    </children>
+  </item>
+  <item nodeId="node-593">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">room3&#x000A;&#x000A;Everything seems normal, and the room is as you would expect it to be.&#x000A;You can see a lockedDoor and a hunter here.&#x000A;&#x000A;The hunter looms ominously. You have 1 turn left before he strikes!&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
@@ -1687,6 +2121,48 @@
   <item nodeId="node-457">
     <command xml:space="preserve">z</command>
     <result xml:space="preserve">Time passes.&#x000A;&#x000A;The hunter looms ominously. You have 0 turns left before he strikes!&#x000A;Before you can act, the hunter pounces-your fate is sealed!&#x000A;&#x000A;&#x000A;&#x000A;    *** The End ***&#x000A;&#x000A;&#x000A;&#x000A;&#x000A;Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-623">
+    <command xml:space="preserve">x door</command>
+    <result xml:space="preserve">You see nothing special about the Iron Door.&#x000A;&#x000A;You try to get up, but your legs betray you. In an instant you collapse back onto the floor-the impact jostles your head. The world seems to shift, as if seen through unfamiliar eyes.&#x000A;everything feels fuzzy, but as your headache softens, you notice everything seems off&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-624"/>
+    </children>
+  </item>
+  <item nodeId="node-624">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">A whispers tells you "look ..."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-625"/>
+    </children>
+  </item>
+  <item nodeId="node-625">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">"Have you seen the painting" the voice whispers&#x000A;"You look pale," the doctor murmurs. "How are you holding up?"&#x000A;your head starts cloudy and your headache worsens, but things seem more normal&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-626"/>
+    </children>
+  </item>
+  <item nodeId="node-626">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">(first opening the Sealed Door)&#x000A;It seems to be locked.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-627"/>
+    </children>
+  </item>
+  <item nodeId="node-627">
+    <command xml:space="preserve">examine door</command>
+    <result xml:space="preserve">You see nothing special about the Sealed Door.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
@@ -2334,7 +2810,7 @@
   </item>
   <item nodeId="node-530">
     <command xml:space="preserve">z</command>
-    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;"You look pale," the doctor murmurs. "How are you holding up?"&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
